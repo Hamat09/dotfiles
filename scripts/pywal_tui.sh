@@ -1,0 +1,1 @@
+../../scripts/pywal_tui.sh

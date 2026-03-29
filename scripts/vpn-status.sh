@@ -1,0 +1,1 @@
+../../scripts/vpn-status.sh

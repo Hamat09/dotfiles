@@ -1,0 +1,1 @@
+../../scripts/yazi.sh
