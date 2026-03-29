@@ -1,0 +1,143 @@
+@define-color bg    #1a1b26; 
+@define-color fg    #a9b1d6; 
+@define-color blk   #32344a; 
+@define-color red   #f7768e; 
+@define-color grn   #9ece6a; 
+@define-color ylw   #e0af68; 
+@define-color blu   #7aa2f7; 
+@define-color mag   #ad8ee6; 
+@define-color cyn   #0db9d7; 
+@define-color brblk #444b6a; 
+@define-color white #ffffff; 
+
+@import url("/home/hamato/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: alpha(#%%background%%, 0.7);
+    border: 2px solid #%%color6.hex%%;
+    border-radius: 5px;
+    color: @fg;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    margin: 5px 0px 5px 5px;
+    color: #%%color7.hex%%;
+    background: transparent;
+}
+#workspaces button.active {
+    color: #%%background%%;
+    background: #%%color1.hex%%;
+    border-radius: 0px;
+}
+#workspaces button.empty {
+    color: #%%color7.hex%%;
+}
+#workspaces button.empty.active {
+    color: #%%background%%;
+    background: #%%color1.hex%%;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+button:hover {
+    background: transparent;
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+tooltip {
+  border: 2px solid #%%color6.hex%%;
+  border-radius: 8px;
+  color: #%%color5.hex%%;
+  background-color: alpha(#%%background.hex%%, 0.7);
+}
+
+tooltip label {
+  color: #%%color7.hex%%;
+}
+
+
+#clock,
+#custom-sep,
+#battery,
+#cpu,
+#memory,
+#disk,
+#network,
+#tray {
+    padding: 0 8px;
+    color: @white;
+}
+
+#custom-sep {
+    color: #%%color3.hex%%;
+}
+
+#clock {
+    color: #%%color7.hex%%;
+}
+#pulseaudio {
+    color: #%%color7.hex%%;
+}
+
+#pulseaudio.muted {
+    color: @white;
+    background-color: @red;
+}
+
+#battery {
+    color: #%%color7.hex%%;
+}
+
+#disk {
+    color: #%%color7.hex%%;
+}
+
+#memory {
+    color: #%%color7.hex%%;
+}
+
+#cpu {
+    color: #%%color7.hex%%;
+}
+#custom-vpn {
+    color: #%%color7.hex%%;
+}
+
+#network {
+    color: #%%color7.hex%%;
+}
+
+#network.disconnected {
+    color: @white;
+    background-color: @red;
+}
+
+#tray {
+    background-color: transparent;
+    margin-right: 9px;
+}
+
+#tray menu  {
+    border: 2px solid #%%color7.hex%%;
+    border-radius: 8px;
+    color: #%%color5.hex%%; /* Change text color in menus */
+    background: alpha(#%%background%%, 0.7); /* Change background of menu items */
+}
+
+#tray menu :hover {
+    border-radius: 0px;
+    color: #%%background%%; 
+    background-color: #%%color1.hex%%; /* Hover effect for menu items */
+}
+
+

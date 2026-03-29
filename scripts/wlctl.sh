@@ -1,1 +1,0 @@
-../../scripts/wlctl.sh

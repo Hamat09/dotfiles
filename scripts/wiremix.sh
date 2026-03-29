@@ -1,1 +1,0 @@
-../../scripts/wiremix.sh

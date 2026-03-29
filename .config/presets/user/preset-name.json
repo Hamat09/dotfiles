@@ -1,0 +1,38 @@
+{
+    "name": "Preset Name",
+    "variables": {
+        "accent_color": "#FFC500",
+        "accent_fg_color": "#c3c7c9",
+        "accent_bg_color": "#FFC500",
+        "window_bg_color": "#111f28",
+        "window_fg_color": "#c3c7c9",
+        "headerbar_bg_color": "#111f28",
+        "headerbar_fg_color": "#c3c7c9",
+        "popover_bg_color": "#111f28",
+        "popover_fg_color": "#c3c7c9",
+        "view_bg_color": "#111f28",
+        "view_fg_color": "#c3c7c9",
+        "card_bg_color": "#111f28",
+        "card_fg_color": "#c3c7c9;",
+        "sidebar_bg_color": "@window_bg_color",
+        "sidebar_fg_color": "@window_fg_color",
+        "sidebar_border_color": "@window_bg_color",
+        "sidebar_backdrop_color": "@window_bg_color"
+    },
+    "palette": {
+        "blue_": {},
+        "green_": {},
+        "yellow_": {},
+        "orange_": {},
+        "red_": {},
+        "purple_": {},
+        "brown_": {},
+        "light_": {},
+        "dark_": {}
+    },
+    "custom_css": {
+        "gtk4": "/*\n * GTK Colors\n * Generated with matugen\n */\n\n",
+        "gtk3": ""
+    },
+    "plugins": {}
+}

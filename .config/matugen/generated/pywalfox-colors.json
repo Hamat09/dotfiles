@@ -1,0 +1,29 @@
+{
+    "checksum": "5ce84d8108ab06f1bb5be977b071c003",
+    "wallpaper": "/home/hamato/Wallpapers/vagabond.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#18132e",
+        "foreground": "#c5c4ca",
+        "cursor": "#c5c4ca"
+    },
+    "colors": {
+        "color0": "#18132e",
+        "color1": "#565b89",
+        "color2": "#b3224b",
+        "color3": "#b32345",
+        "color4": "#e52049",
+        "color5": "#f22e4f",
+        "color6": "#fb2e4f",
+        "color7": "#c5c4ca",
+        "color8": "#666379",
+        "color9": "#565b89",
+        "color10": "#b3224b",
+        "color11": "#b32345",
+        "color12": "#e52049",
+        "color13": "#f22e4f",
+        "color14": "#fb2e4f",
+        "color15": "#c5c4ca"
+    }
+}
