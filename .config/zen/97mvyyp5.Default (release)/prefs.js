@@ -62,7 +62,7 @@ user_pref("browser.tabs.allow_transparent_browser", true);
 user_pref("browser.termsofuse.prefMigrationCheck", true);
 user_pref("browser.toolbars.bookmarks.visibility", "newtab");
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"unified-extensions-area\":[\"pywalfox_frewacom_org-browser-action\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"customizableui-special-spring1\",\"vertical-spacer\",\"urlbar-container\",\"customizableui-special-spring2\",\"unified-extensions-button\",\"addon_darkreader_org-browser-action\",\"ublock0_raymondhill_net-browser-action\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\"],\"vertical-tabs\":[],\"PersonalToolbar\":[\"personal-bookmarks\"],\"zen-sidebar-top-buttons\":[\"zen-toggle-compact-mode\"],\"zen-sidebar-foot-buttons\":[\"downloads-button\",\"zen-workspaces-button\",\"zen-create-new-button\"]},\"seen\":[\"pywalfox_frewacom_org-browser-action\",\"developer-button\",\"screenshot-button\",\"addon_darkreader_org-browser-action\",\"ublock0_raymondhill_net-browser-action\"],\"dirtyAreaCache\":[\"unified-extensions-area\",\"nav-bar\",\"toolbar-menubar\",\"TabsToolbar\",\"vertical-tabs\",\"PersonalToolbar\",\"zen-sidebar-top-buttons\",\"zen-sidebar-foot-buttons\"],\"currentVersion\":23,\"newElementCount\":2}");
-user_pref("browser.urlbar.lastUrlbarSearchSeconds", 1774811863);
+user_pref("browser.urlbar.lastUrlbarSearchSeconds", 1774812706);
 user_pref("browser.urlbar.placeholderName", "Google");
 user_pref("browser.urlbar.quicksuggest.migrationVersion", 6);
 user_pref("browser.urlbar.suggest.bookmark", false);
