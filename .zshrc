@@ -113,7 +113,7 @@ alias ls="exa --long --all --icons --git --header"
 alias h="/home/hamato/scripts/hellwal.sh"
 alias m="matugen --show-colors -q image"
 alias p="/home/hamato/scripts/pywal.sh"
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias dots="/home/hamato/scripts/gitpush.sh"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
