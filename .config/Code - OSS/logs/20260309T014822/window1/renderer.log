@@ -1,0 +1,15 @@
+2026-03-09 01:48:24.760 [info] Started local extension host with pid 174118.
+2026-03-09 01:48:29.773 [info] [perf] Render performance baseline is 91ms
+2026-03-09 01:49:02.783 [error] [Extension Host] (node:174118) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-09 01:50:24.409 [error] Unknown (FileSystemError): Error: ENXIO: no such device or address, copyfile '/home/hamato/.config/qBittorrent/ipc-socket' -> '/home/hamato/Projects/Hyperland-dots/dotfiles/qBittorrent/ipc-socket'
+    at k6.create (file:///usr/lib/code/out/main.js:38:29866)
+    at ls (file:///usr/lib/code/out/main.js:38:27043)
+    at Qc.jb (file:///usr/lib/code/out/main.js:63:22568)
+    at Qc.copy (file:///usr/lib/code/out/main.js:63:21249)
+2026-03-09 01:50:24.412 [error] Error: ENXIO: no such device or address, copyfile '/home/hamato/.config/qBittorrent/ipc-socket' -> '/home/hamato/Projects/Hyperland-dots/dotfiles/qBittorrent/ipc-socket': Unknown (FileSystemError): Error: ENXIO: no such device or address, copyfile '/home/hamato/.config/qBittorrent/ipc-socket' -> '/home/hamato/Projects/Hyperland-dots/dotfiles/qBittorrent/ipc-socket'
+    at k6.create (file:///usr/lib/code/out/main.js:38:29866)
+    at ls (file:///usr/lib/code/out/main.js:38:27043)
+    at Qc.jb (file:///usr/lib/code/out/main.js:63:22568)
+    at Qc.copy (file:///usr/lib/code/out/main.js:63:21249)
+2026-03-09 01:56:34.364 [warning] [backup tracker] suspended, ignoring unregister event file:///home/hamato/Projects/Hyperland-dots/.git/COMMIT_EDITMSG 

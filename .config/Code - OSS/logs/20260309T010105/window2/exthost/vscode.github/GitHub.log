@@ -1,0 +1,4 @@
+2026-03-09 01:01:56.424 [info] Log level: Info
+2026-03-09 01:03:00.293 [info] Log level: Info
+2026-03-09 01:03:03.707 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-03-09 01:04:22.199 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for Hamat09/Hyperland-dots: Error: No GitHub authentication session available.
