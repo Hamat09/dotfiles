@@ -1,1 +1,0 @@
-../../scripts/btop.sh

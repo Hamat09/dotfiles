@@ -1,1 +1,0 @@
-../../scripts/waybar-reload.sh
