@@ -1,0 +1,1 @@
+../../scripts/power-profile.sh
