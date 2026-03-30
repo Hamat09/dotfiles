@@ -1,12 +1,1 @@
-{"timestamp":51252293,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1774822205203","path_key":"clean","loadfail_reason":"N/A","can_load":"true"}}
-{"timestamp":51252293,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","path_key":"clean","can_load":"true","glean_timestamp":"1774822205203"}}
-{"timestamp":51252294,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"glean_timestamp":"1774822205204","shutdown_ok":"false","shutdown_reason":"N/A"}}
-{"timestamp":51252808,"category":"webcompatreporting","name":"reason_dropdown","extra":{"glean_timestamp":"1774822205718","setting":"required"}}
-{"timestamp":51253147,"category":"nimbus_events","name":"startup_database_consistency","extra":{"db_active_count":"33","glean_timestamp":"1774822206057","total_store_count":"42","store_active_count":"33","total_db_count":"42","trigger":"startup","primary":"database"}}
-{"timestamp":51253213,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1774822206123","value":"error_notfounderror"}}
-{"timestamp":51253260,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1774822206170","value":"null"}}
-{"timestamp":51253995,"category":"extensions.data","name":"sync_usage_quotas","extra":{"backend":"rust","items_over_quota":"0","items_count":"24","glean_timestamp":"1774822206905","total_size_bytes":"1052","addon_id":"addon@darkreader.org"}}
-{"timestamp":51254008,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1774822206918"}}
-{"timestamp":51254088,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1774822206998"}}
-{"timestamp":51254181,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1774822207090"}}
-{"timestamp":51256467,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1774822209377"}}
+{"timestamp":31420838,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1774878678666"}}
