@@ -1,0 +1,51 @@
+1774468966545	Sync.LogManager	DEBUG	Flushing file log
+1774468966569	Sync.LogManager	DEBUG	Log cleanup threshold time: 1773604966569
+1774468966570	Sync.LogManager	DEBUG	Done deleting files.
+1774468968426	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774468969637	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774468970793	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774468971909	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774469927465	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774469941046	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774469971501	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774469973598	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774469978233	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774470021584	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774470023347	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774470173251	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774470177592	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774471361181	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774471401586	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774473299597	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774473301088	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774473539910	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774474055189	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774474056736	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774474083566	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774475112298	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774475113568	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774475114600	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774476296486	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774476300566	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774476614666	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1774476614666	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774476614668	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774476614670	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774476629794	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774476631117	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1774476631117	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1774476631118	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774476631119	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774476631120	Sync.Service	DEBUG	User-Agent: Zen/1.19.3b (Linux x86_64) FxSync/1.150.0.20260315063056.desktop
+1774476631120	Sync.Service	INFO	Starting sync at 2026-03-26 03:40:31 in browser session LndR6F8HGKq8
+1774476631120	Sync.Service	DEBUG	In sync: should login.
+1774476631120	Sync.Service	INFO	User logged in successfully - verifying login.
+1774476631120	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has no FxA user
+1774476631120	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1774476631120	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1774476631120	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1774476631120	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1774476631121	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774476631121	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774476631121	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username(resource://services-sync/service.sys.mjs:1061:15) JS Stack trace: onNotify@service.sys.mjs:1061:15
+1774476631121	Sync.Service	DEBUG	Not syncing: login returned false.

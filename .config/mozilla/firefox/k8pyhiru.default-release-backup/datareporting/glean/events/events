@@ -1,0 +1,13 @@
+{"timestamp":31741048,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","can_load":"true","path_key":"clean","glean_timestamp":"1774878998876"}}
+{"timestamp":31741048,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1774878998876","can_load":"true","loadfail_reason":"N/A","path_key":"clean"}}
+{"timestamp":31741049,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"glean_timestamp":"1774878998877","shutdown_ok":"false","shutdown_reason":"N/A"}}
+{"timestamp":31741457,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1774878999285"}}
+{"timestamp":31741730,"category":"nimbus_events","name":"startup_database_consistency","extra":{"glean_timestamp":"1774878999558","store_active_count":"33","primary":"database","total_db_count":"42","db_active_count":"33","total_store_count":"42","trigger":"startup"}}
+{"timestamp":31741783,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1774878999611"}}
+{"timestamp":31741805,"category":"doh","name":"state_rollback","extra":{"value":"null","glean_timestamp":"1774878999633"}}
+{"timestamp":31741897,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1774878999725"}}
+{"timestamp":31742333,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1774879000161"}}
+{"timestamp":31742335,"category":"extensions.data","name":"sync_usage_quotas","extra":{"backend":"rust","items_count":"24","total_size_bytes":"1052","addon_id":"addon@darkreader.org","glean_timestamp":"1774879000163","items_over_quota":"0"}}
+{"timestamp":31742429,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1774879000257","value":"not-major"}}
+{"timestamp":31743638,"category":"nimbus_events","name":"database_write","extra":{"success":"true","glean_timestamp":"1774879001466"}}
+{"timestamp":31751252,"category":"doh","name":"state_shutdown","extra":{"glean_timestamp":"1774879009080","value":"null"}}

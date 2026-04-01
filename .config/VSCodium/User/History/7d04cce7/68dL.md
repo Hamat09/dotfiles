@@ -1,0 +1,1 @@
+These are my dotfiles for my personal usage in Hyprland and mango config

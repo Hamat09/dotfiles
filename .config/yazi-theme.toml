@@ -1,0 +1,95 @@
+[mgr]
+cwd = { 
+  fg = "{color3}" 
+  }
+# Border
+border_symbol = ""
+border_style  = { 
+  fg = "{color3}" 
+  }
+
+
+[indicator]
+padding = {
+  open = "█", 
+  close = "█" 
+}
+current = { 
+  fg = "{background}", 
+  bg = "{color1}"
+}
+parent = { 
+  fg = "{background}", 
+  bg = "{color1}"
+}
+preview = { 
+  fg = "{background}", 
+  bg = "{color1}"
+}
+
+[status]
+sep_left  = { 
+  open = "█", 
+  close = "█" 
+}
+sep_right = { 
+  open = "█", 
+  close = "█" 
+}
+
+[mode]
+#Mode
+normal_main = { 
+  bg = "{color1}", 
+  fg = "{background}", 
+  bold = true 
+}
+normal_alt  = { 
+  bg = "{color3}", 
+  fg = "{background}" 
+}
+
+[tabs]
+active    = { 
+  fg = "{background}", 
+  bold = true, 
+  bg = "{color3}" 
+}
+inactive  = { 
+  fg = "{color3}", 
+  bg = "{background}" 
+}
+sep_inner = { 
+  open = "█",
+  close = "█" 
+}
+
+[icon]
+
+dirs  = [ 
+ 	{ name = 
+    ".config", 
+  text = "", 
+  fg = "{color3}" 
+}, 
+ 	{ name = "Wallpapers", text = "", fg = "{color3}" }, 
+ 	{ name = "scripts", text = "", fg = "{color3}" }, 
+ 	{ name = "Games", text = "", fg = "{color3}" }, 
+ 	{ 
+    name = "Desktop", 
+    text = "", 
+    fg = "{color3}" 
+  }, 
+ 	{ name = "Development", text = "", fg = "{color3}" }, 
+ 	{ name = "Documents", text = "", fg = "{color3}" }, 
+ 	{ name = "Downloads", text = "", fg = "{color3}" }, 
+ 	{ name = "Library", text = "", fg = "{color3}" }, 
+ 	{ name = "Movies", text = "", fg = "{color3}" }, 
+ 	{ name = "Music", text = "", fg = "{color3}" }, 
+ 	{ name = "Pictures", text = "", fg = "{color3}" }, 
+ 	{ name = "Public", text = "", fg = "{color3}" }, 
+ 	{ name = "Videos", text = "", fg = "{color3}" },
+  { name = "Storage",text = "",  fg = "{color3}"},  
+ ] 
+
+
