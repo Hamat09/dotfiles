@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cp -r /home/hamato/.config/btop /home/hamato/dotfiles/.config
+cp  /home/hamato/.config/btop /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/cava /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/cwal /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/gtk-3.0 /home/hamato/dotfiles/.config
