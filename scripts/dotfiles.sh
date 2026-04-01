@@ -2,7 +2,7 @@
 
 echo "Dotfiles being updated"
 
-cp  /home/hamato/.config/cwal ~/dotfiles/.config
+cp -r /home/hamato/.config/cwal /home/hamato/dotfiles/.config/cwal
 cp -r /home/hamato/.config/gtk-3.0 /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/gtk-4.0 /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/hellwal /home/hamato/dotfiles/.config
