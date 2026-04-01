@@ -32,4 +32,4 @@ cp -r /home/hamato/.zshrc /home/hamato/dotfiles
 cd ~/dotfiles
 git add --all
 git commit -m "Updated"
-git push --set-upstream https://github.com/Hamat09/Hyperland-dots.git master
+git push origin main
