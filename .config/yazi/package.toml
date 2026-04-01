@@ -1,7 +1,0 @@
-[[plugin.deps]]
-use = "Deepak22903/kdeconnect-send"
-rev = "7d9098d"
-hash = "498bda3e06d793f79fe1df7b28fc14a1"
-
-[flavor]
-deps = []
