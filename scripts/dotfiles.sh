@@ -2,6 +2,8 @@
 
 echo "Dotfiles being updated"
 
+mkdir ~/dotfiles/.config
+
 cp -r /home/hamato/scripts /home/hamato/dotfiles
 cp -r /home/hamato/.zshrc /home/hamato/dotfiles
 cp -r /home/hamato/.config/dolphinrc /home/hamato/dotfiles/.config
