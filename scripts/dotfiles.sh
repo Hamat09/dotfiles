@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-cp -r /home/hamato/.config/btop ~/dotfiles/.config/
 cp -r /home/hamato/.config/cava /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/cwal /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/gtk-3.0 /home/hamato/dotfiles/.config
@@ -22,6 +21,7 @@ cp -r /home/hamato/.config/waybar /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/xdg-desktop-portal-termfilechooser /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/yazi /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/zathura /home/hamato/dotfiles/.config
+cp -r /home/hamato/.config/btop ~/dotfiles/.config/
 cp -r /home/hamato/.config/dolphinrc /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/easyeffectsrc /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/kdeglobals /home/hamato/dotfiles/.config
