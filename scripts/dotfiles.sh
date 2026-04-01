@@ -2,7 +2,9 @@
 
 echo "Dotfiles being updated"
 
-cp -r /home/hamato/.config/cwal/ /home/hamato/dotfiles/.config
+cp -r /home/hamato/scripts /home/hamato/dotfiles
+cp -r /home/hamato/.zshrc /home/hamato/dotfiles
+cp -r /home/hamato/.config/cwal /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/gtk-3.0 /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/gtk-4.0 /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/hellwal /home/hamato/dotfiles/.config
@@ -27,8 +29,6 @@ cp -r /home/hamato/.config/cava ~/dotfiles/.config
 cp -r /home/hamato/.config/dolphinrc /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/easyeffectsrc /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/kdeglobals /home/hamato/dotfiles/.config
-cp -r /home/hamato/scripts /home/hamato/dotfiles
-cp -r /home/hamato/.zshrc /home/hamato/dotfiles
 
 cd ~/dotfiles
 git add .
