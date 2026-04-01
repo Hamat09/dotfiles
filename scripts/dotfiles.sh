@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+echo "Dotfiles being updated"
+
 cp -r /home/hamato/.config/cwal ~/dotfiles/.config
 cp -r /home/hamato/.config/gtk-3.0 /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/gtk-4.0 /home/hamato/dotfiles/.config
