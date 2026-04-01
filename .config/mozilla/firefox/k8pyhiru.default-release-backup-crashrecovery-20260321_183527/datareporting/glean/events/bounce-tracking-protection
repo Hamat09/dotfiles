@@ -1,2 +1,0 @@
-{"timestamp":54364857,"category":"bounce.tracking.protection","name":"purge_action","extra":{"is_dry_run":"true","require_stateful_bounces":"false","success":"true","bounce_time":"1774028940","site_host":"uploadflix.cc","glean_timestamp":"1774032753457"},"execution_counter":46}
-{"timestamp":131608,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1774070866081","glean.startup.date":"2026-03-21T10:57+05:30"},"execution_counter":47}
