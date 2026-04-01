@@ -1,0 +1,56 @@
+{{
+    "schemeVersion": 2,
+    "enabled": true,
+    "fetchNews": true,
+    "theme": {{
+        "mode": 1,
+        "brightness": 100,
+        "contrast": 100,
+        "grayscale": 0,
+        "sepia": 0,
+        "useFont": true,
+        "fontFamily": "JetBrainsMono Nerd Font",
+        "textStroke": 0,
+        "engine": "dynamicTheme",
+        "stylesheet": "",
+        "darkSchemeBackgroundColor": "{{base16.base07.default.hex}}",
+        "darkSchemeTextColor": "{{base16.base07.default.hex}}",
+        "lightSchemeBackgroundColor": "{{base16.base07.default.hex}}",
+        "lightSchemeTextColor": "{{base16.base00.default.hex}}",
+        "scrollbarColor": "{{colors.source_color.default.hex}}",
+        "selectionColor": "{{colors.source_color.default.hex}}",
+        "styleSystemControls": false,
+        "lightColorScheme": "Default",
+        "darkColorScheme": "Default",
+        "immediateModify": false
+    }},
+    "presets": [],
+    "customThemes": [],
+    "enabledByDefault": true,
+    "enabledFor": [],
+    "disabledFor": [],
+    "changeBrowserTheme": false,
+    "syncSettings": true,
+    "syncSitesFixes": true,
+    "automation": {{
+      "enabled": false,
+      "mode": "",
+      "behavior": "OnOff"
+    }},
+    "time": {{
+      "activation": "18:00",
+      "deactivation": "9:00"
+    }},
+    "location": {{
+      "latitude": null,
+      "longitude": null
+    }},
+    "previewNewDesign": true,
+    "enableForPDF": true,
+    "enableForProtectedPages": true,
+    "enableContextMenus": true,
+    "detectDarkTheme": false,
+    "displayedNews": [
+  "thanks-2023"
+    ]
+}}
