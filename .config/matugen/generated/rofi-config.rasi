@@ -48,20 +48,20 @@ configuration {
        ===================================================================== */
     
     /* Backgrounds */
-    var-win-bg:           #201921B3;
-    var-input-bg:         #201921B3;
+    var-win-bg:           #172a58B3;
+    var-input-bg:         #172a58B3;
     var-urgent-bg:        #f7768e;
-    var-active-bg:        #3B3F5F;
-    var-message-bg:       #201921B3;
+    var-active-bg:        #e13ba5;
+    var-message-bg:       #172a58B3;
     
     /* Text Colors */
-    var-text-def:         #EA879C;
-    var-text-dim:         #EA879C;
+    var-text-def:         #d9a495;
+    var-text-dim:         #d9a495;
     var-text-urgent:      #ffffff;
-    var-text-active:      #201921;
+    var-text-active:      #172a58;
     
     /* Borders */
-    var-border:           @outline;
+    var-border:           #954750;
 
 
     /* =====================================================================
@@ -103,7 +103,7 @@ window {
     
     background-color:   @var-win-bg;
     opacity:            0.7;
-    border:             0px;
+    border:             2px;
     border-radius:      5px;
     padding:            20px;
 }
@@ -125,7 +125,7 @@ inputbar {
     spacing:            10px;
     padding:            0px;
     border-radius:      5px;
-    background-color:   transparent;
+    background-color:   @var-input-bg;
     text-color:         @var-text-def;
 }
 

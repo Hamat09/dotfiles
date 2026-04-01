@@ -1,29 +1,29 @@
 {
-    "checksum": "5ce84d8108ab06f1bb5be977b071c003",
-    "wallpaper": "/home/hamato/Wallpapers/vagabond.png",
+    "checksum": "4c07f74d3e181b51bee5bc6eb7107bdc",
+    "wallpaper": "/home/hamato/Wallpapers/pink-mecha.png",
     "alpha": "100",
 
     "special": {
-        "background": "#18132e",
-        "foreground": "#c5c4ca",
-        "cursor": "#c5c4ca"
+        "background": "#21242e",
+        "foreground": "#c7c8ca",
+        "cursor": "#c7c8ca"
     },
     "colors": {
-        "color0": "#18132e",
-        "color1": "#565b89",
-        "color2": "#b3224b",
-        "color3": "#b32345",
-        "color4": "#e52049",
-        "color5": "#f22e4f",
-        "color6": "#fb2e4f",
-        "color7": "#c5c4ca",
-        "color8": "#666379",
-        "color9": "#565b89",
-        "color10": "#b3224b",
-        "color11": "#b32345",
-        "color12": "#e52049",
-        "color13": "#f22e4f",
-        "color14": "#fb2e4f",
-        "color15": "#c5c4ca"
+        "color0": "#21242e",
+        "color1": "#93719a",
+        "color2": "#a06d98",
+        "color3": "#887ca2",
+        "color4": "#958bad",
+        "color5": "#a294b6",
+        "color6": "#ac9ec1",
+        "color7": "#c7c8ca",
+        "color8": "#666d7d",
+        "color9": "#93719a",
+        "color10": "#a06d98",
+        "color11": "#887ca2",
+        "color12": "#958bad",
+        "color13": "#a294b6",
+        "color14": "#ac9ec1",
+        "color15": "#c7c8ca"
     }
 }

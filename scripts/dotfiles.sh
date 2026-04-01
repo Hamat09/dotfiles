@@ -31,6 +31,7 @@ cp -r /home/hamato/.config/yazi /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/zathura /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/btop ~/dotfiles/.config/
 cp -r /home/hamato/.config/cava ~/dotfiles/.config
+
 cd ~/dotfiles
 git add .
 git commit -m "Updated"
