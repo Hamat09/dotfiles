@@ -30,6 +30,6 @@ cp -r /home/hamato/Wallpapers /home/hamato/dotfiles
 cp -r /home/hamato/.zshrc /home/hamato/dotfiles
 
 cd ~/dotfiles
-git add --all
+git add .
 git commit -m "Updated"
 git push origin main
