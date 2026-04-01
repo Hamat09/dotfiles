@@ -32,4 +32,4 @@ cp -r /home/hamato/.zshrc /home/hamato/dotfiles
 cd ~/dotfiles
 git add .
 git commit -m "Updated"
-git push origin main
+git push -u origin main
