@@ -1,0 +1,58 @@
+{
+	"games": [
+		{
+			"runner": "sideload",
+			"app_name": "a4MyF1xjdsYZGceNh5Lhm9",
+			"title": "Metal Gear Solid V",
+			"install": {
+				"executable": "/home/hamato/Games/Metal Gear Solid V The Phantom Pain/mgsvtpp.exe",
+				"platform": "Windows",
+				"is_dlc": false
+			},
+			"folder_name": "/home/hamato/Games/Metal Gear Solid V The Phantom Pain",
+			"art_cover": "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0dbd9289b44cf0f458ede03b08f7b280.png",
+			"is_installed": true,
+			"art_square": "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/0dbd9289b44cf0f458ede03b08f7b280.png",
+			"canRunOffline": true,
+			"browserUrl": "",
+			"customUserAgent": "",
+			"launchFullScreen": false
+		},
+		{
+			"runner": "sideload",
+			"app_name": "bm9TXzBmuzPoEfP96G2xZf",
+			"title": "Zenless Zone Zero",
+			"install": {
+				"executable": "/home/hamato/Games/HoYoPlay/launcher.exe",
+				"platform": "Windows",
+				"is_dlc": false
+			},
+			"folder_name": "/home/hamato/Games/HoYoPlay",
+			"art_cover": "https://cdn2.steamgriddb.com/grid/97657e12f1b8cbf71b6837f02b23d423.png",
+			"is_installed": true,
+			"art_square": "https://cdn2.steamgriddb.com/grid/97657e12f1b8cbf71b6837f02b23d423.png",
+			"canRunOffline": true,
+			"browserUrl": "",
+			"customUserAgent": "",
+			"launchFullScreen": false
+		},
+		{
+			"runner": "sideload",
+			"app_name": "jiBLXzezMfh6jK32RbA9Qr",
+			"title": "ZZZ",
+			"install": {
+				"executable": "/home/hamato/Games/ZenlessZoneZero Game/ZenlessZoneZero.exe",
+				"platform": "Windows",
+				"is_dlc": false
+			},
+			"folder_name": "/home/hamato/Games/ZenlessZoneZero Game",
+			"art_cover": "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ae007bc6f374d9ce3a7e2c98940a1d01.jpg",
+			"is_installed": true,
+			"art_square": "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/ae007bc6f374d9ce3a7e2c98940a1d01.jpg",
+			"canRunOffline": true,
+			"browserUrl": "",
+			"customUserAgent": "",
+			"launchFullScreen": false
+		}
+	]
+}
