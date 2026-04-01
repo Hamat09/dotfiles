@@ -26,7 +26,6 @@ cp -r /home/hamato/.config/dolphinrc /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/easyeffectsrc /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/kdeglobals /home/hamato/dotfiles/.config
 cp -r /home/hamato/scripts /home/hamato/dotfiles
-cp -r /home/hamato/Wallpapers /home/hamato/dotfiles
 cp -r /home/hamato/.zshrc /home/hamato/dotfiles
 
 cd ~/dotfiles
