@@ -1,29 +1,29 @@
 {
-    "checksum": "4c07f74d3e181b51bee5bc6eb7107bdc",
-    "wallpaper": "/home/hamato/Wallpapers/pink-mecha.png",
+    "checksum": "ca18c52f9e6c4d1531fcd87f820b8733",
+    "wallpaper": "/home/hamato/Wallpapers/wallhaven-e881lw_3840x2160.png",
     "alpha": "100",
 
     "special": {
-        "background": "#21242e",
-        "foreground": "#c7c8ca",
-        "cursor": "#c7c8ca"
+        "background": "#060e0f",
+        "foreground": "#c0c3c3",
+        "cursor": "#c0c3c3"
     },
     "colors": {
-        "color0": "#21242e",
-        "color1": "#93719a",
-        "color2": "#a06d98",
-        "color3": "#887ca2",
-        "color4": "#958bad",
-        "color5": "#a294b6",
-        "color6": "#ac9ec1",
-        "color7": "#c7c8ca",
-        "color8": "#666d7d",
-        "color9": "#93719a",
-        "color10": "#a06d98",
-        "color11": "#887ca2",
-        "color12": "#958bad",
-        "color13": "#a294b6",
-        "color14": "#ac9ec1",
-        "color15": "#c7c8ca"
+        "color0": "#060e0f",
+        "color1": "#a68a32",
+        "color2": "#0d9ca3",
+        "color3": "#c87b0a",
+        "color4": "#888f83",
+        "color5": "#07b1be",
+        "color6": "#14bfc7",
+        "color7": "#c0c3c3",
+        "color8": "#779191",
+        "color9": "#a68a32",
+        "color10": "#0d9ca3",
+        "color11": "#c87b0a",
+        "color12": "#888f83",
+        "color13": "#07b1be",
+        "color14": "#14bfc7",
+        "color15": "#c0c3c3"
     }
 }

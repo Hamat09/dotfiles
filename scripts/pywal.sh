@@ -57,7 +57,7 @@ if [[ $TOOL == "PYWAL" ]]; then
     fi
 
   fi
-  swww img $WALLPAPER --transition-type none
+  awww img $WALLPAPER --transition-type none
   ln -nfs "/home/hamato/.cache/wal/style.css" "/home/hamato/.config/waybar/style.css"
   ln -nfs "/home/hamato/.cache/wal/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
   ln -nfs "/home/hamato/.cache/wal/pywalfox-colors.json" "/home/hamato/.cache/wal/colors.json"
@@ -180,7 +180,7 @@ elif [[ $TOOL == "HELLWAL" ]]; then
       fi
     fi
   fi
-  swww img $WALLPAPER --transition-type none
+  awww img $WALLPAPER --transition-type none
   ln -nfs "/home/hamato/.cache/hellwal/style.css" "/home/hamato/.config/waybar/style.css"
   ln -nfs "/home/hamato/.cache/hellwal/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
   ln -nfs "/home/hamato/.cache/hellwal/pywalfox-colors.json" "/home/hamato/.cache/wal/colors.json"
@@ -227,7 +227,7 @@ elif [[ $TOOL == "CWAL" ]]; then
 
   cwal --mode $MODE --backend $BACKEND --saturation $SATU --contrast $CON --img $WALLPAPER
 
-  swww img $WALLPAPER --transition-type none
+  awww img $WALLPAPER --transition-type none
   ln -nfs "/home/hamato/.cache/cwal/style.css" "/home/hamato/.config/waybar/style.css"
   ln -nfs "/home/hamato/.cache/cwal/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
   ln -nfs "/home/hamato/.cache/cwal/pywalfox-colors.json" "/home/hamato/.cache/wal/colors.json"
@@ -275,7 +275,7 @@ elif [[ $TOOL == "WALLUST" ]]; then
 
   wallust run $WALLPAPER --backend $BACKEND --palette $PAL --saturation $SATU --colorspace $COLSP
 
-  swww img $WALLPAPER --transition-type none
+  awww img $WALLPAPER --transition-type none
   pkill -USR1 cava
   pywalfox update
   pkill mako && mako &
