@@ -123,7 +123,7 @@
             "critical": 15
         },
         "format": "<span color=\"#%%color2.hex%%\">DISCHARGING</span> | <span color=\"#%%color5.hex%%\">{capacity}%</span>",
-        "format-full": <span color=\"#%%color2.hex%%\">CHARGED</span>",
+        "format-full": "<span color=\"#%%color2.hex%%\">CHARGED</span>",
         "format-charging": "<span color=\"#%%color2.hex%%\">CHARGING</span> | <span color=\"#%%color5.hex%%\">{capacity}%</span>"
     },
         "custom/sep": {

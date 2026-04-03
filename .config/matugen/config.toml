@@ -45,7 +45,7 @@ input_path = '/home/hamato/.config/matugen/templates/config.jsonc'
 output_path = '/home/hamato/.config/matugen/generated/config.jsonc'
 post_hook = '''
        ln -nfs "/home/hamato/.config/matugen/generated/config.jsonc" "/home/hamato/.config/waybar/config.jsonc"
-       pkill -SIGUSR2 waybar 
+       pkill -SIGUSR2 waybar
 '''
 
 [templates.waybarstyle]

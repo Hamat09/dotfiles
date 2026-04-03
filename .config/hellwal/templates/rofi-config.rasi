@@ -61,7 +61,7 @@ configuration {
     var-text-active:     #%% background.hex %%;
     
     /* Borders */
-    var-border:           @outline;
+    var-border:           #%% color6.hex %%;
 
 
     /* =====================================================================
@@ -103,7 +103,7 @@ window {
     
     background-color:   @var-win-bg;
     opacity:            0.7;
-    border:             0px;
+    border:             2px;
     border-radius:      5px;
     padding:            20px;
 }

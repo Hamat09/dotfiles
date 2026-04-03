@@ -1,29 +1,29 @@
 {
-    "checksum": "ca18c52f9e6c4d1531fcd87f820b8733",
-    "wallpaper": "/home/hamato/Wallpapers/wallhaven-e881lw_3840x2160.png",
+    "checksum": "36698ab030bf29748564086d5eace538",
+    "wallpaper": "/home/hamato/Wallpapers/linux_command.png",
     "alpha": "100",
 
     "special": {
-        "background": "#060e0f",
-        "foreground": "#c0c3c3",
-        "cursor": "#c0c3c3"
+        "background": "#101412",
+        "foreground": "#c3c4c3",
+        "cursor": "#c3c4c3"
     },
     "colors": {
-        "color0": "#060e0f",
-        "color1": "#a68a32",
-        "color2": "#0d9ca3",
-        "color3": "#c87b0a",
-        "color4": "#888f83",
-        "color5": "#07b1be",
-        "color6": "#14bfc7",
-        "color7": "#c0c3c3",
-        "color8": "#779191",
-        "color9": "#a68a32",
-        "color10": "#0d9ca3",
-        "color11": "#c87b0a",
-        "color12": "#888f83",
-        "color13": "#07b1be",
-        "color14": "#14bfc7",
-        "color15": "#c0c3c3"
+        "color0": "#101412",
+        "color1": "#1a414d",
+        "color2": "#294b52",
+        "color3": "#0e4e6f",
+        "color4": "#3f5d60",
+        "color5": "#556f6f",
+        "color6": "#135f8b",
+        "color7": "#c3c4c3",
+        "color8": "#5a6e61",
+        "color9": "#1a414d",
+        "color10": "#294b52",
+        "color11": "#0e4e6f",
+        "color12": "#3f5d60",
+        "color13": "#556f6f",
+        "color14": "#135f8b",
+        "color15": "#c3c4c3"
     }
 }
