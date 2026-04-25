@@ -1,15 +1,15 @@
 [mgr]
-cwd = { fg = "#793941" }
+cwd = { fg = "#c13224" }
 # Border
 border_symbol = ""
-border_style  = { fg = "#793941" }
+border_style  = { fg = "#c13224" }
 
 
 [indicator]
 padding = { open = "█", close = "█" }
-current = { fg = "#04050a", bg = "#80444d"}
-parent = { fg = "#04050a", bg = "#80444d"}
-preview = { fg = "#04050a", bg = "#80444d"}
+current = { fg = "#b92c25", bg = "#f35220"}
+parent = { fg = "#b92c25", bg = "#f35220"}
+preview = { fg = "#b92c25", bg = "#f35220"}
 
 [status]
 sep_left  = { open = "█", close = "█" }
@@ -17,32 +17,32 @@ sep_right = { open = "█", close = "█" }
 
 [mode]
 #Mode
-normal_main = { bg = "#80444d", fg = "#04050a", bold = true }
-normal_alt  = { bg = "#793941", fg = "#04050a" }
+normal_main = { bg = "#f35220", fg = "#b92c25", bold = true }
+normal_alt  = { bg = "#c13224", fg = "#b92c25" }
 
 [tabs]
-active    = { fg = "#04050a", bold = true, bg = "#793941" }
-inactive  = { fg = "#793941", bg = "#04050a" }
+active    = { fg = "#b92c25", bold = true, bg = "#c13224" }
+inactive  = { fg = "#c13224", bg = "#b92c25" }
 sep_inner = { open = "█",close = "█" }
 
 [icon]
 
 dirs  = [ 
- 	{ name = ".config", text = "", fg = "#793941" }, 
- 	{ name = "Wallpapers", text = "", fg = "#793941" }, 
- 	{ name = "scripts", text = "", fg = "#793941" }, 
- 	{ name = "Games", text = "", fg = "#793941" }, 
- 	{ name = "Desktop", text = "", fg = "#793941" }, 
- 	{ name = "Development", text = "", fg = "#793941" }, 
- 	{ name = "Documents", text = "", fg = "#793941" }, 
- 	{ name = "Downloads", text = "", fg = "#793941" }, 
- 	{ name = "Library", text = "", fg = "#793941" }, 
- 	{ name = "Movies", text = "", fg = "#793941" }, 
- 	{ name = "Music", text = "", fg = "#793941" }, 
- 	{ name = "Pictures", text = "", fg = "#793941" }, 
- 	{ name = "Public", text = "", fg = "#793941" }, 
- 	{ name = "Videos", text = "", fg = "#793941" },
-  { name = "Storage",text = "",  fg = "#793941"},  
+ 	{ name = ".config", text = "", fg = "#c13224" }, 
+ 	{ name = "Wallpapers", text = "", fg = "#c13224" }, 
+ 	{ name = "scripts", text = "", fg = "#c13224" }, 
+ 	{ name = "Games", text = "", fg = "#c13224" }, 
+ 	{ name = "Desktop", text = "", fg = "#c13224" }, 
+ 	{ name = "Development", text = "", fg = "#c13224" }, 
+ 	{ name = "Documents", text = "", fg = "#c13224" }, 
+ 	{ name = "Downloads", text = "", fg = "#c13224" }, 
+ 	{ name = "Library", text = "", fg = "#c13224" }, 
+ 	{ name = "Movies", text = "", fg = "#c13224" }, 
+ 	{ name = "Music", text = "", fg = "#c13224" }, 
+ 	{ name = "Pictures", text = "", fg = "#c13224" }, 
+ 	{ name = "Public", text = "", fg = "#c13224" }, 
+ 	{ name = "Videos", text = "", fg = "#c13224" },
+  { name = "Storage",text = "",  fg = "#c13224"},  
  ] 
 
 
