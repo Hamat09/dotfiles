@@ -1,22 +1,29 @@
 {
-  "wallpaper": "{image}",
-  "alpha": "100",
-  "colors": {
-    "color0": "#b92c25",
-    "color1": "#b3443f",
-    "color2": "#ad5b5a",
-    "color3": "#a77374",
-    "color4": "#a18b8f",
-    "color5": "#9ca3a9",
-    "color6": "#96bac4",
-    "color7": "#90d2de",
-    "color8": "#b92c25",
-    "color9": "#c13224",
-    "color10": "#b92c25",
-    "color11": "#b92c25",
-    "color12": "#b92c25",
-    "color13": "#b92c25",
-    "color14": "#b92c25",
-    "color15": "#b92c25"
-  }
+    "checksum": "ca18c52f9e6c4d1531fcd87f820b8733",
+    "wallpaper": "/home/hamato/Wallpapers/hip_girl_yellow_cyan.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1e4446",
+        "foreground": "#c6d0d0",
+        "cursor": "#c6d0d0"
+    },
+    "colors": {
+        "color0": "#1e4446",
+        "color1": "#f9d26c",
+        "color2": "#019ca7",
+        "color3": "#838e9c",
+        "color4": "#069ca6",
+        "color5": "#1bb7be",
+        "color6": "#afc1b7",
+        "color7": "#c6d0d0",
+        "color8": "#779194",
+        "color9": "#f9d26c",
+        "color10": "#019ca7",
+        "color11": "#838e9c",
+        "color12": "#069ca6",
+        "color13": "#1bb7be",
+        "color14": "#afc1b7",
+        "color15": "#c6d0d0"
+    }
 }
