@@ -85,6 +85,7 @@ if [[ $TOOL == "PYWAL" ]]; then
   pywalfox update
   pkill mako && mako &
   pkill -SIGUSR2 waybar
+  gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3"
 
 elif [[ $TOOL == "MATUGEN" ]]; then
 

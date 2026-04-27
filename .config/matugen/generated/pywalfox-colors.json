@@ -1,29 +1,22 @@
 {
-    "checksum": "d9cd2a9ea984f12898246ac39d2231a9",
-    "wallpaper": "/home/hamato/Wallpapers/anime-water.png",
-    "alpha": "100",
-
-    "special": {
-        "background": "#080a14",
-        "foreground": "#c1c2c4",
-        "cursor": "#c1c2c4"
-    },
-    "colors": {
-        "color0": "#080a14",
-        "color1": "#253462",
-        "color2": "#494949",
-        "color3": "#464d7c",
-        "color4": "#6c4e4e",
-        "color5": "#69557d",
-        "color6": "#9c8577",
-        "color7": "#c1c2c4",
-        "color8": "#575c6b",
-        "color9": "#253462",
-        "color10": "#494949",
-        "color11": "#464d7c",
-        "color12": "#6c4e4e",
-        "color13": "#69557d",
-        "color14": "#9c8577",
-        "color15": "#c1c2c4"
-    }
+  "wallpaper": "{image}",
+  "alpha": "100",
+  "colors": {
+    "color0": "#1f2331",
+    "color1": "#36343e",
+    "color2": "#4c454c",
+    "color3": "#635659",
+    "color4": "#7a6766",
+    "color5": "#917873",
+    "color6": "#a78981",
+    "color7": "#be9a8e",
+    "color8": "#1f2331",
+    "color9": "#5a3c58",
+    "color10": "#2d2840",
+    "color11": "#1f2331",
+    "color12": "#1f2331",
+    "color13": "#1f2331",
+    "color14": "#1f2331",
+    "color15": "#1f2331"
+  }
 }

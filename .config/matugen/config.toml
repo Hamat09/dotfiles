@@ -10,7 +10,7 @@ input_path = '/home/hamato/.config/matugen/templates/colors-kitty.conf'
 output_path = '/home/hamato/.config/matugen/generated/colors-kitty.conf' 
 post_hook = '''
       ln -nfs "/home/hamato/.config/matugen/generated/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
-      pkill -SIGUSR1 -x kitty || :
+      pkill -USR1 kitty
 '''
 [templates.gtk3]
 input_path = '/home/hamato/.config/matugen/templates/gtk-colors.css'
@@ -66,14 +66,14 @@ input_path = '/home/hamato/.config/matugen/templates/cava-colors.ini'
 output_path = '/home/hamato/.config/matugen/generated/cava-colors.ini'
 post_hook = '''
        ln -nfs "/home/hamato/.config/matugen/generated/cava-colors.ini" "/home/hamato/.config/cava/themes/cava-colors.ini"
-       pkill -USR1 -x cava || :
+       pkill -USR1 cava
 '''
 [templates.btop]
 input_path = '/home/hamato/.config/matugen/templates/btop.theme'
 output_path = '/home/hamato/.config/matugen/generated/btop.theme'
 post_hook = '''
        ln -nfs "/home/hamato/.config/matugen/generated/btop.theme" "/home/hamato/.config/btop/themes/matugen.theme"
-       pkill -USR1 -x btop || :
+       pkill -USR2 btop
 '''
 
 [templates.easyeffects]
