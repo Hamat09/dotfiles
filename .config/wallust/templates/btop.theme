@@ -19,7 +19,7 @@ theme[main_fg]="{{color7}}"
 theme[title]="{{color2}}"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="{{colors.secondary.default.hex}}"
+theme[hi_fg]="{{color3}}"
 
 # Background color of selected item in processes box
 theme[selected_bg]="{{color1}}"
@@ -31,7 +31,7 @@ theme[selected_fg]="{{background}}"
 theme[inactive_fg]="{{color5}}"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="{{colors.tertiary.default.hex}}"
+theme[proc_misc]=""
 
 # Cpu box outline color
 theme[cpu_box]="{{color7}}"
@@ -59,14 +59,14 @@ theme[cpu_mid]="{{color2}}"
 theme[cpu_end]="{{color1}}"
 
 # Mem/Disk free meter
-theme[free_start]="{{colors.secondary.default.hex}}"
+theme[free_start]="{{color3}}"
 theme[free_mid]=""
-theme[free_end]="{{colors.secondary_container.default.hex}}"
+theme[free_end]="{{color1}}"
 
 # Mem/Disk cached meter
-theme[cached_start]="{{colors.tertiary.default.hex}}"
+theme[cached_start]="{{color3}}"
 theme[cached_mid]=""
-theme[cached_end]="{{colors.tertiary_container.default.hex}}"
+theme[cached_end]="{{color1}}"
 
 # Mem/Disk available meter
 theme[available_start]="{{color3}}"
