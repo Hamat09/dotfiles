@@ -95,7 +95,7 @@
       "on-scroll": 1,
       "on-click-right": "mode",
       "format": {
-        "months": "<span color=\"#343330\"><b>{}</b></span>",
+        "months": "<span color=\"#e8fbdf\"><b>{}</b></span>",
         "weekdays": "<span color=\"#f4c23c\"><b>{}</b></span>",
         "today": "<span color=\"#25adae\"><b>{}</b></span>"
       }
@@ -137,25 +137,25 @@
         "format" : "▊",
     },
     "custom/sep1": {
-        "format" : "<span color=\"#cedec6\"> █</span>",
-    },
-    "custom/sep2": {
-        "format" : "<span color=\"#b5c2ad\"> █</span>",
-    },
-    "custom/sep3": {
-        "format" : "<span color=\"#9ba594\"> █</span>",
-    },
-    "custom/sep4": {
-        "format" : "<span color=\"#81887b\"> █</span>",
-    },
-    "custom/sep5": {
-        "format" : "<span color=\"#676c62\"> █</span>",
-    },
-    "custom/sep6": {
         "format" : "<span color=\"#4e4f49\"> █</span>",
     },
+    "custom/sep2": {
+        "format" : "<span color=\"#676c62\"> █</span>",
+    },
+    "custom/sep3": {
+        "format" : "<span color=\"#81887b\"> █</span>",
+    },
+    "custom/sep4": {
+        "format" : "<span color=\"#9ba594\"> █</span>",
+    },
+    "custom/sep5": {
+        "format" : "<span color=\"#b5c2ad\"> █</span>",
+    },
+    "custom/sep6": {
+        "format" : "<span color=\"#cedec6\"> █</span>",
+    },
     "custom/sep7": {
-        "format" : "<span color=\"#343330\"> █</span>",
+        "format" : "<span color=\"#e8fbdf\"> █</span>",
     },
     "custom/sep8": {
         "format" : "<span color=\"#f4c23c\"> █</span>",

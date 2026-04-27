@@ -81,8 +81,8 @@ if [[ $TOOL == "PYWAL" ]]; then
   cp -r "/home/hamato/.cache/wal/vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
   cp -r "/home/hamato/.cache/wal/easyeffectsrc" "/home/hamato/.config/easyeffectsrc"
   pkill -USR1 cava
-  pkill -USR2 cava
   pkill -USR2 btop
+  pkill -USR1 kitty
   pywalfox update
   pkill mako && mako &
   pkill -SIGUSR2 waybar
@@ -204,6 +204,7 @@ elif [[ $TOOL == "HELLWAL" ]]; then
   cp -r "/home/hamato/.cache/hellwal/vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
   pkill -USR2 cava
   pkill -USR2 btop
+  pkill -USR1 kitty
   pywalfox update
   pkill mako && mako &
   pkill -SIGUSR2 waybar
@@ -251,8 +252,9 @@ elif [[ $TOOL == "CWAL" ]]; then
   cp -r "/home/hamato/.cache/cwal/kdeglobals" "/home/hamato/.config/kdeglobals"
   ln -nfs "/home/hamato/.cache/cwal/config.jsonc" "/home/hamato/.config/waybar/config.jsonc"
   cp -r "/home/hamato/.cache/cwal/vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
-  pkill -USR2 cava
+  pkill -USR1 cava
   pkill -USR2 btop
+  pkill -USR1 kitty
   pywalfox update
   pkill mako && mako &
   pkill -SIGUSR2 waybar
@@ -278,8 +280,9 @@ elif [[ $TOOL == "WALLUST" ]]; then
   wallust run $WALLPAPER --backend $BACKEND --palette $PAL --saturation $SATU --colorspace $COLSP
 
   awww img $WALLPAPER --transition-type none
-  pkill -USR2 cava
+  pkill -USR1 cava
   pkill -USR2 btop
+  pkill -USR1 kitty
   pywalfox update
   pkill mako && mako &
   pkill -SIGUSR2 waybar

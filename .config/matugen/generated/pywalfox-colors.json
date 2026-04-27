@@ -1,29 +1,29 @@
 {
-    "checksum": "ca18c52f9e6c4d1531fcd87f820b8733",
-    "wallpaper": "/home/hamato/Wallpapers/hip_girl_yellow_cyan.png",
+    "checksum": "d9cd2a9ea984f12898246ac39d2231a9",
+    "wallpaper": "/home/hamato/Wallpapers/anime-water.png",
     "alpha": "100",
 
     "special": {
-        "background": "#1e4446",
-        "foreground": "#c6d0d0",
-        "cursor": "#c6d0d0"
+        "background": "#080a14",
+        "foreground": "#c1c2c4",
+        "cursor": "#c1c2c4"
     },
     "colors": {
-        "color0": "#1e4446",
-        "color1": "#f9d26c",
-        "color2": "#019ca7",
-        "color3": "#838e9c",
-        "color4": "#069ca6",
-        "color5": "#1bb7be",
-        "color6": "#afc1b7",
-        "color7": "#c6d0d0",
-        "color8": "#779194",
-        "color9": "#f9d26c",
-        "color10": "#019ca7",
-        "color11": "#838e9c",
-        "color12": "#069ca6",
-        "color13": "#1bb7be",
-        "color14": "#afc1b7",
-        "color15": "#c6d0d0"
+        "color0": "#080a14",
+        "color1": "#253462",
+        "color2": "#494949",
+        "color3": "#464d7c",
+        "color4": "#6c4e4e",
+        "color5": "#69557d",
+        "color6": "#9c8577",
+        "color7": "#c1c2c4",
+        "color8": "#575c6b",
+        "color9": "#253462",
+        "color10": "#494949",
+        "color11": "#464d7c",
+        "color12": "#6c4e4e",
+        "color13": "#69557d",
+        "color14": "#9c8577",
+        "color15": "#c1c2c4"
     }
 }

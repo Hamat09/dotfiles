@@ -19,7 +19,7 @@
 }
 
 window#waybar {
-    background-color: alpha(#e8fbdf, 0.7);
+    background-color: alpha(#343330, 0.7);
     border: 2px solid #025e63;
     border-radius: 5px;
     color: @fg;
@@ -28,19 +28,19 @@ window#waybar {
 #workspaces button {
     padding: 0 7px;
     margin: 5px 0px 5px 5px;
-    color: #343330;
+    color: #e8fbdf;
     background: transparent;
 }
 #workspaces button.active {
-    color: #e8fbdf;
+    color: #343330;
     background: #25adae;
     border-radius: 0px;
 }
 #workspaces button.empty {
-    color: #343330;
+    color: #e8fbdf;
 }
 #workspaces button.empty.active {
-    color: #e8fbdf;
+    color: #343330;
     background: #25adae;
 }
 
@@ -58,7 +58,7 @@ tooltip {
   border: 2px solid #025e63;
   border-radius: 8px;
   color: #08787e;
-  background-color: alpha(#e8fbdf, 0.7);
+  background-color: alpha(#343330, 0.7);
 }
 
 tooltip label {
@@ -84,10 +84,10 @@ tooltip label {
 }
 
 #clock {
-    color: #343330;
+    color: #e8fbdf;
 }
 #pulseaudio {
-    color: #343330;
+    color: #e8fbdf;
 }
 
 #pulseaudio.muted {
@@ -96,26 +96,26 @@ tooltip label {
 }
 
 #battery {
-    color: #343330;
+    color: #e8fbdf;
 }
 
 #disk {
-    color: #343330;
+    color: #e8fbdf;
 }
 
 #memory {
-    color: #343330;
+    color: #e8fbdf;
 }
 
 #cpu {
-    color: #343330;
+    color: #e8fbdf;
 }
 #custom-vpn {
-    color: #343330;
+    color: #e8fbdf;
 }
 
 #network {
-    color: #e8fbdf;
+    color: #343330;
 }
 
 #network.disconnected {
@@ -132,12 +132,12 @@ tooltip label {
     border: 2px solid #025e63;
     border-radius: 8px;
     color: #08787e; /* Change text color in menus */
-    background: alpha(#e8fbdf, 0.7); /* Change background of menu items */
+    background: alpha(#343330, 0.7); /* Change background of menu items */
 }
 
 #tray menu :hover {
     border-radius: 0px;
-    color: #e8fbdf; 
+    color: #343330; 
     background-color: #25adae; /* Hover effect for menu items */
 }
 
