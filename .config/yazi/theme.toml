@@ -1,1 +1,19 @@
-/home/hamato/.cache/wal/yazi-theme.toml
+[indicator]
+padding = {
+  open = "█", 
+  close = "█" 
+}
+[status]
+sep_left  = { 
+  open = "█", 
+  close = "█" 
+}
+sep_right = { 
+  open = "█", 
+  close = "█" 
+}
+sep_inner = { 
+  open = "█",
+  close = "█" 
+}
+
