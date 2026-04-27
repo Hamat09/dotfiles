@@ -61,13 +61,6 @@ post_hook = '''
        ln -nfs "/home/hamato/.config/matugen/generated/vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
 '''
 
-[templates.yazi]
-input_path = '/home/hamato/.config/matugen/templates/yazi-theme.toml'
-output_path = '/home/hamato/.config/matugen/generated/yazi-theme.toml'
-post_hook = '''
-       ln -nfs "/home/hamato/.config/matugen/generated/yazi-theme.toml" "/home/hamato/.config/yazi/theme.toml"
-'''
-
 [templates.cava]
 input_path = '/home/hamato/.config/matugen/templates/cava-colors.ini'
 output_path = '/home/hamato/.config/matugen/generated/cava-colors.ini'

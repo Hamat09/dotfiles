@@ -1,29 +1,29 @@
 [Colors:Window]
-ForegroundNormal=#c6d0d0
-BackgroundNormal=#1e4446
-DecorationHover=#f9d26c
+ForegroundNormal=#c3c7c9
+BackgroundNormal=#111f27
+DecorationHover=#ffc500
 
 [Colors:Button]
-ForeGroundNormal=#c6d0d0
-ForegroundActive=#c6d0d0
-BackgroundNormal=#1e4446
+ForeGroundNormal=#c3c7c9
+ForegroundActive=#c3c7c9
+BackgroundNormal=#111f27
 
 [Colors:Selection]
-ForegroundNormal=#1e4446
-BackgroundNormal=#f9d26c
+ForegroundNormal=#111f27
+BackgroundNormal=#ffc500
 
 [Colors:Tooltip]
-ForegroundNormal=#c6d0d0
-ForegroundInactive=#c6d0d0
-BackgroundNormal=#1e4446
+ForegroundNormal=#c3c7c9
+ForegroundInactive=#c3c7c9
+BackgroundNormal=#111f27
 
 [Colors:View]
-BackgroundNormal=#1e4446
-ForegroundNormal=#c6d0d0
-ForegroundLink=#c6d0d0
-ForegroundVisited=#019ca7
-ForegroundInactive=#019ca7
-DecorationHover=#f9d26c
+BackgroundNormal=#111f27
+ForegroundNormal=#c3c7c9
+ForegroundLink=#c3c7c9
+ForegroundVisited=#067cad
+ForegroundInactive=#067cad
+DecorationHover=#ffc500
 
 [Icons]
 Theme=breeze-dark

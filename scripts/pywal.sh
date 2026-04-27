@@ -73,7 +73,6 @@ if [[ $TOOL == "PYWAL" ]]; then
   ln -nfs "/home/hamato/.cache/wal/colors-zathura" "/home/hamato/.config/zathura/zathurarc"
   ln -nfs "/home/hamato/.cache/wal/colors-hyprland.conf" "/home/hamato/.config/hypr/hyprland-colors.conf"
   ln -nfs "/home/hamato/.cache/wal/zathura-colors" "/home/hamato/.config/zathura/zathurarc"
-  ln -nfs "/home/hamato/.cache/wal/yazi-theme.toml" "/home/hamato/.config/yazi/theme.toml"
   ln -nfs "/home/hamato/.cache/wal/colors-mako" "/home/hamato/.config/mako/config"
   ln -nfs "/home/hamato/.cache/wal/cava-colors.ini" "/home/hamato/.config/cava/themes/cava-colors.ini"
   cp -r "/home/hamato/.cache/wal/kdeglobals" "/home/hamato/.config/kdeglobals"
@@ -197,12 +196,11 @@ elif [[ $TOOL == "HELLWAL" ]]; then
   ln -nfs "/home/hamato/.cache/hellwal/zathura-colors" "/home/hamato/.config/zathura/zathurarc"
   ln -nfs "/home/hamato/.cache/hellwal/colors.vim" "/home/hamato/.cache/wal/colors-wal.vim"
   ln -nfs "/home/hamato/.cache/hellwal/colors-mako" "/home/hamato/.config/mako/config"
-  ln -nfs "/home/hamato/.cache/hellwal/yazi-theme.toml" "/home/hamato/.config/yazi/theme.toml"
   cp -r "/home/hamato/.cache/hellwal/kdeglobals" "/home/hamato/.config/kdeglobals"
   ln -nfs "/home/hamato/.cache/hellwal/config.jsonc" "/home/hamato/.config/waybar/config.jsonc"
   ln -nfs "/home/hamato/.cache/hellwal/hyprland-colors.conf" "/home/hamato/.config/hypr/hyprland-colors.conf"
   cp -r "/home/hamato/.cache/hellwal/vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
-  pkill -USR2 cava
+  pkill -USR1 cava
   pkill -USR2 btop
   pkill -USR1 kitty
   pywalfox update
@@ -245,7 +243,6 @@ elif [[ $TOOL == "CWAL" ]]; then
   ln -nfs "/home/hamato/.cache/cwal/colors-zathura" "/home/hamato/.config/zathura/zathurarc"
   ln -nfs "/home/hamato/.cache/cwal/colors-hyprland.conf" "/home/hamato/.config/hypr/hyprland-colors.conf"
   ln -nfs "/home/hamato/.cache/cwal/zathura-colors" "/home/hamato/.config/zathura/zathurarc"
-  ln -nfs "/home/hamato/.cache/cwal/yazi-theme.toml" "/home/hamato/.config/yazi/theme.toml"
   ln -nfs "/home/hamato/.cache/cwal/colors-mako" "/home/hamato/.config/mako/config"
   ln -nfs "/home/hamato/.cache/cwal/cava-colors.ini" "/home/hamato/.config/cava/themes/cava-colors.ini"
   ln -nfs "/home/hamato/.cache/cwal/colors.vim" "/home/hamato/.cache/wal/colors-wal.vim"

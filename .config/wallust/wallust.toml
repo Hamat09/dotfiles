@@ -58,7 +58,6 @@ pywalfox = { template = 'pywalfox-colors.json', target = '/home/hamato/.cache/wa
 qt5ct = { template = 'qtct-colors.conf', target = '/home/hamato/.config/qt5ct/colors/pywal.conf'}
 qt6ct = { template = 'qtct-colors.conf', target = '/home/hamato/.config/qt6ct/colors/pywal.conf'}
 rofi = { template = 'rofi-config.rasi', target = '/home/hamato/.config/rofi/config.rasi'}
-yazi = { template = 'yazi-theme.toml', target = '/home/hamato/.config/yazi/theme.toml'}
 zathura = { template = 'zathura-colors', target = '/home/hamato/.config/zathura/zathurarc'}
 nvim = { template = 'colors.vim', target = '/home/hamato/.cache/wal/colors-wal.vim'}
 pywalkvconfig = { template = 'pywal.kvconfig', target = '/home/hamato/.config/Kvantum/pywal/pywal.kvconfig'}
