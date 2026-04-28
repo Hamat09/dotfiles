@@ -48,20 +48,20 @@ configuration {
        ===================================================================== */
     
     /* Backgrounds */
-    var-win-bg:           #0b161aB3;
-    var-input-bg:         #0b161aB3;
+    var-win-bg:           #2e3440B3;
+    var-input-bg:         #2e3440B3;
     var-urgent-bg:        #f7768e;
-    var-active-bg:        #63774b;
-    var-message-bg:       #0b161aB3;
+    var-active-bg:        #515b69;
+    var-message-bg:       #2e3440B3;
     
     /* Text Colors */
-    var-text-def:         #5f6649;
-    var-text-dim:         #5f6649;
+    var-text-def:         #a67579;
+    var-text-dim:         #a67579;
     var-text-urgent:      #ffffff;
-    var-text-active:      #0b161a;
+    var-text-active:      #2e3440;
     
     /* Borders */
-    var-border:           #102027;
+    var-border:           #3d4555;
 
 
     /* =====================================================================

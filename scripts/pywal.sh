@@ -100,6 +100,12 @@ elif [[ $TOOL == "MATUGEN" ]]; then
   SCHEME=$(printf "scheme-content\nscheme-expressive\nscheme-fidelity\nscheme-fruit-salad\nscheme-monochrome\nscheme-neutral\nscheme-rainbow\nscheme-tonal-spot\nscheme-vibrant" | fzf --footer="CHOOSE SCHEME")
 
   matugen image $WALLPAPER --mode $MODE --type $SCHEME
+  pkill -USR1 cava
+  pkill -USR2 btop
+  pkill -USR1 kitty
+  pywalfox update
+  pkill mako && mako &
+  pkill -SIGUSR2 waybar
 
 elif [[ $TOOL == "HELLWAL" ]]; then
 
@@ -195,7 +201,7 @@ elif [[ $TOOL == "HELLWAL" ]]; then
   ln -nfs "/home/hamato/.cache/hellwal/btop.theme" "/home/hamato/.config/btop/themes/matugen.theme"
   ln -nfs "/home/hamato/.cache/hellwal/colors-zathura" "/home/hamato/.config/zathura/zathurarc"
   ln -nfs "/home/hamato/.cache/hellwal/zathura-colors" "/home/hamato/.config/zathura/zathurarc"
-  ln -nfs "/home/hamato/.cache/hellwal/colors.vim" "/home/hamato/.cache/wal/colors-wal.vim"
+  cp -r "/home/hamato/.cache/hellwal/colors-wal.vim" "/home/hamato/.cache/wal/colors-wal.vim"
   ln -nfs "/home/hamato/.cache/hellwal/colors-mako" "/home/hamato/.config/mako/config"
   cp -r "/home/hamato/.cache/hellwal/kdeglobals" "/home/hamato/.config/kdeglobals"
   ln -nfs "/home/hamato/.cache/hellwal/config.jsonc" "/home/hamato/.config/waybar/config.jsonc"
