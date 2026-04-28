@@ -201,6 +201,7 @@ elif [[ $TOOL == "HELLWAL" ]]; then
   ln -nfs "/home/hamato/.cache/hellwal/config.jsonc" "/home/hamato/.config/waybar/config.jsonc"
   ln -nfs "/home/hamato/.cache/hellwal/hyprland-colors.conf" "/home/hamato/.config/hypr/hyprland-colors.conf"
   cp -r "/home/hamato/.cache/hellwal/vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
+  ln -nfs "/home/hamato/.cache/hellwal/cava-colors.ini" "/home/hamato/.config/cava/themes/cava-colors.ini"
   pkill -USR1 cava
   pkill -USR2 btop
   pkill -USR1 kitty

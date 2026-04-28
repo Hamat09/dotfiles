@@ -10,7 +10,7 @@ input_path = '/home/hamato/.config/matugen/templates/colors-kitty.conf'
 output_path = '/home/hamato/.config/matugen/generated/colors-kitty.conf' 
 post_hook = '''
       ln -nfs "/home/hamato/.config/matugen/generated/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
-      pkill -USR1 kitty
+      pkill -SIGUSR1 -x kitty || :
 '''
 [templates.gtk3]
 input_path = '/home/hamato/.config/matugen/templates/gtk-colors.css'
@@ -80,7 +80,7 @@ post_hook = '''
 input_path = '/home/hamato/.config/matugen/templates/easyeffectsrc'
 output_path = '/home/hamato/.config/matugen/generated/easyeffectsrc'
 post_hook = '''
-       cp -r "/home/hamato/.config/matugen/generated/easyeffects" "/home/hamato/.config/easyeffectsrc"
+       cp -r "/home/hamato/.config/matugen/generated/easyeffectsrc" "/home/hamato/.config/easyeffectsrc"
 '''
 [templates.mako]
 input_path = '/home/hamato/.config/matugen/templates/colors-mako'

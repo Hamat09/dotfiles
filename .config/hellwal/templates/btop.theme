@@ -19,7 +19,7 @@ theme[main_fg]="#%%color7.hex%%"
 theme[title]="#%%color2.hex%%"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="{{colors.secondary.default.hex}}"
+theme[hi_fg]=""
 
 # Background color of selected item in processes box
 theme[selected_bg]="#%%color1.hex%%"
@@ -31,7 +31,7 @@ theme[selected_fg]="#%%background.hex%%"
 theme[inactive_fg]="#%%color5.hex%%"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="{{colors.tertiary.default.hex}}"
+theme[proc_misc]=""
 
 # Cpu box outline color
 theme[cpu_box]="#%%color7.hex%%"
