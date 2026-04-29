@@ -1,29 +1,29 @@
 {
-    "checksum": "2873892c8da14af50c6736e3b417a4ec",
-    "wallpaper": "/home/hamato/Wallpapers/Doodle_Space_Nord.png",
+    "checksum": "c7fa09673ecec78771925d6db84a4809",
+    "wallpaper": "/home/hamato/Wallpapers/cd_blue.png",
     "alpha": "100",
 
     "special": {
-        "background": "#242129",
-        "foreground": "#c8c7c9",
-        "cursor": "#c8c7c9"
+        "background": "#162336",
+        "foreground": "#c5c8cc",
+        "cursor": "#c5c8cc"
     },
     "colors": {
-        "color0": "#242129",
-        "color1": "#956566",
-        "color2": "#c4646b",
-        "color3": "#938c78",
-        "color4": "#b29379",
-        "color5": "#cd9b79",
-        "color6": "#797e84",
-        "color7": "#c8c7c9",
-        "color8": "#6d647b",
-        "color9": "#956566",
-        "color10": "#c4646b",
-        "color11": "#938c78",
-        "color12": "#b29379",
-        "color13": "#cd9b79",
-        "color14": "#797e84",
-        "color15": "#c8c7c9"
+        "color0": "#162336",
+        "color1": "#5e8ab7",
+        "color2": "#058efe",
+        "color3": "#2296eb",
+        "color4": "#318ff6",
+        "color5": "#5d9ee1",
+        "color6": "#70bfe0",
+        "color7": "#c5c8cc",
+        "color8": "#7d8798",
+        "color9": "#5e8ab7",
+        "color10": "#058efe",
+        "color11": "#2296eb",
+        "color12": "#318ff6",
+        "color13": "#5d9ee1",
+        "color14": "#70bfe0",
+        "color15": "#c5c8cc"
     }
 }
