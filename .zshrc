@@ -123,9 +123,14 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+eval "$(zoxide init zsh)"
+
 #fzf
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+# export FZF_DEFAULT_COMMAND='[ -f /tmp/fzf_cache ] && cat /tmp/fzf_cache || (fd . | tee /tmp/fzf_cache)'
+
 # Use ~~ as the trigger sequence instead of the default **
 export FZF_COMPLETION_TRIGGER='~~'
 
