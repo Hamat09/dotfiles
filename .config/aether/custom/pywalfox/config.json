@@ -1,0 +1,4 @@
+{
+    "template": "pywalfox-colors.json",
+    "destination": "/home/hamato/.cache/wal/colors.json"
+}

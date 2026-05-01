@@ -1,0 +1,4 @@
+{
+    "template": "colors-hyprland.conf",
+    "destination": "/home/hamato/.config/hypr/hyprland-colors.conf"
+}

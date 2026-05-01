@@ -7,10 +7,11 @@ command = "awww img --transition-type none {{ image }}"
 
 [templates.kitty]
 input_path = '/home/hamato/.config/matugen/templates/colors-kitty.conf'
-output_path = '/home/hamato/.config/matugen/generated/colors-kitty.conf' 
+output_path = '/home/hamato/.config/matugen/generated/colors-kitty.conf'
 post_hook = '''
       ln -nfs "/home/hamato/.config/matugen/generated/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
 '''
+
 [templates.gtk3]
 input_path = '/home/hamato/.config/matugen/templates/gtk-colors.css'
 output_path = '/home/hamato/.config/matugen/generated/gtk-colors.css'

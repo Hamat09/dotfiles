@@ -1,0 +1,26 @@
+{
+  "excludedApps": {
+    "alacritty": true,
+    "btop": true,
+    "chromium": true,
+    "ghostty": true,
+    "hyprland": true,
+    "hyprlock": true,
+    "icons": true,
+    "kitty": true,
+    "mako": true,
+    "swayosd": true,
+    "vencord": true,
+    "walker": true,
+    "warp": true,
+    "waybar": true,
+    "wofi": true,
+    "zellij": true
+  },
+  "includeGtk": false,
+  "includeNeovim": false,
+  "includeVscode": false,
+  "includeZed": false,
+  "selectedNeovimConfig": "",
+  "videoCpuMode": false
+}

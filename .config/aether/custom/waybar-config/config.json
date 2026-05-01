@@ -1,0 +1,4 @@
+{
+    "template": "config.jsonc",
+    "destination": "/home/hamato/.config/waybar/config.jsonc"
+}

@@ -1,0 +1,4 @@
+{
+    "template": "gtk-colors.css",
+    "destination": "/home/hamato/.config/gtk-4.0/gtk.css"
+}

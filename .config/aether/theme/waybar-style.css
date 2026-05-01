@@ -1,0 +1,144 @@
+@define-color bg    #1a1b26; 
+@define-color fg    #a9b1d6; 
+@define-color blk   #32344a; 
+@define-color red   #f7768e; 
+@define-color grn   #9ece6a; 
+@define-color ylw   #e0af68; 
+@define-color blu   #7aa2f7; 
+@define-color mag   #ad8ee6; 
+@define-color cyn   #0db9d7; 
+@define-color brblk #444b6a; 
+@define-color white #ffffff; 
+
+@import url("/home/hamato/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: alpha(#140002, 0.7);
+    border: 2px solid #527e9b;
+    border-radius: 5px;
+    color: @fg;
+}
+
+#workspaces button {
+    padding: 0 7px;
+    margin: 5px 0px 5px 5px;
+    color: #ECBEB8;
+    background: transparent;
+}
+#workspaces button.active {
+    color: #140002;
+    background: #e1404a;
+    border-radius: 0px;
+}
+#workspaces button.empty {
+    color: #ECBEB8;
+}
+#workspaces button.empty.active {
+    color: #140002;
+    background: #e1404a;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+button:hover {
+    background: transparent;
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+tooltip {
+  border: 2px solid #527e9b;
+  border-radius: 8px;
+  color: #83799b;
+  background-color: alpha(#140002, 0.7);
+}
+
+tooltip label {
+  color: #83799b;
+}
+
+
+#clock,
+#custom-sep,
+#battery,
+#cpu,
+#memory,
+#disk,
+#network,
+#tray {
+    padding: 0 8px;
+    color: @white;
+}
+
+#custom-sep {
+    color: #e1404a;
+
+}
+
+#clock {
+    color: #ECBEB8;
+}
+#pulseaudio {
+    color: #ECBEB8;
+}
+
+#pulseaudio.muted {
+    color: @white;
+    background-color: @red;
+}
+
+#battery {
+    color: #ECBEB8;
+}
+
+#disk {
+    color: #ECBEB8;
+}
+
+#memory {
+    color: #ECBEB8;
+}
+
+#cpu {
+    color: #ECBEB8;
+}
+#custom-vpn {
+    color: #ECBEB8;
+}
+
+#network {
+    color: #ECBEB8;
+}
+
+#network.disconnected {
+    color: @white;
+    background-color: @red;
+}
+
+#tray {
+    background-color: transparent;
+    margin-right: 7px;
+}
+
+#tray menu  {
+    border: 2px solid #527e9b;
+    border-radius: 8px;
+    color: #83799b; /* Change text color in menus */
+    background: alpha(#140002, 0.7); /* Change background of menu items */
+}
+
+#tray menu :hover {
+    border-radius: 0px;
+    color: #140002; 
+    background-color: #e1404a; /* Hover effect for menu items */
+}
+
+

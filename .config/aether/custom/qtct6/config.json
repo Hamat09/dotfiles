@@ -1,0 +1,4 @@
+{
+    "template": "qtct-colors.conf",
+    "destination": "/home/hamato/.config/qt6ct/colors/pywal.conf"
+}

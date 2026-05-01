@@ -1,0 +1,4 @@
+{
+    "template": "colors-kitty.conf",
+    "destination": "/home/hamato/.config/kitty/kitty-colors.conf"
+}

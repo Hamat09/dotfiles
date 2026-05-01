@@ -1,0 +1,4 @@
+{
+    "template": "vpn-status.sh",
+    "destination": "/home/hamato/scripts/vpn-status.sh"
+}

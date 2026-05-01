@@ -1,0 +1,4 @@
+{
+    "template": "rofi-config.rasi",
+    "destination": "/home/hamato/.config/rofi/config.rasi"
+}
