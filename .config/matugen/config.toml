@@ -10,6 +10,7 @@ input_path = '/home/hamato/.config/matugen/templates/colors-kitty.conf'
 output_path = '/home/hamato/.config/matugen/generated/colors-kitty.conf'
 post_hook = '''
       ln -nfs "/home/hamato/.config/matugen/generated/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
+      pkill -SIGUSR1 -x kitty || :
 '''
 
 [templates.gtk3]
