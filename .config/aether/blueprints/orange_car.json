@@ -1,0 +1,46 @@
+{
+  "name": "orange_car",
+  "palette": {
+    "colors": [
+      "#1a1d1e",
+      "#e84834",
+      "#aea189",
+      "#BDAF90",
+      "#968a77",
+      "#e84834",
+      "#968a77",
+      "#CCC2A2",
+      "#636a6d",
+      "#ff5d4e",
+      "#9d9e9d",
+      "#ddcfa6",
+      "#9a9da0",
+      "#c989b5",
+      "#a1a4a4",
+      "#e0cf8a"
+    ],
+    "wallpaper": "/home/hamato/Wallpapers/wallhaven-ly93ry_3840x2160.png",
+    "extendedColors": {
+      "accent": "#76797b",
+      "cursor": "#CCC2A2",
+      "selection_background": "#CCC2A2",
+      "selection_foreground": "#040607"
+    }
+  },
+  "adjustments": {
+    "blackPoint": 0,
+    "brightness": 0,
+    "contrast": 0,
+    "gamma": 1,
+    "highlights": 0,
+    "hueShift": 0,
+    "saturation": 0,
+    "shadows": 0,
+    "temperature": 0,
+    "tint": 0,
+    "vibrance": 0,
+    "whitePoint": 0
+  },
+  "settings": {},
+  "timestamp": 1777657725982
+}
