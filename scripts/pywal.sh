@@ -22,7 +22,7 @@ if [[ $TOOL == "PYWAL" ]]; then
       DTHEME=$(find "$DARK_THEME_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {}" --footer="CHOOSE DARK THEME")
       wal -q -f $DTHEME --saturate $SATU
     elif [[ $STHEME == "LIGHT" ]]; then
-      LTHEME=$(find "$LIGHT_THEME_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {}" --footer="CHOOSE LIGHT THEME")
+      LTHEME=$(find "$LIGHT_THEME_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {} -l" --footer="CHOOSE LIGHT THEME")
       wal -f $LTHEME --saturate $SATU -l
     elif [[ $STHEME == "CUSTOM_DARK" ]]; then
       CDTHEME=$(find "$CUSTOM_DARK_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {}" --footer="CHOOSE CUSTOM DARK THEME")
