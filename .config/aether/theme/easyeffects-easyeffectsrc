@@ -15,10 +15,10 @@ ForegroundNormal=#e0def4
 [Colors:View]
 BackgroundNormal=#191724
 DecorationHover=#eb6f92
-ForegroundInactive=#9ccfd8
+ForegroundInactive=#31748f
 ForegroundLink=#e0def4
 ForegroundNormal=#e0def4
-ForegroundVisited=#9ccfd8
+ForegroundVisited=#31748f
 
 [Colors:Window]
 BackgroundNormal=#191724

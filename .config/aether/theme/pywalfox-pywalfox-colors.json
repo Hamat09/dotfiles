@@ -1,22 +1,29 @@
 {
-  "wallpaper": "{image}",
-  "alpha": "100",
-  "colors": {
-    "color0": "#191724",
-    "color1": "#eb6f92",
-    "color2": "#9ccfd8",
-    "color3": "#f6c177",
-    "color4": "#31748f",
-    "color5": "#c4a7e7",
-    "color6": "#ebbcba",
-    "color7": "#e0def4",
-    "color8": "#191724",
-    "color9": "#eb6f92",
-    "color10": "#9ccfd8",
-    "color11": "#f6c177",
-    "color12": "#31748f",
-    "color13": "#c4a7e7",
-    "color14": "#ebbcba",
-    "color15": "#e0def4"
-  }
+    "checksum": "e9a09c268b4b752bc7607c144c4585ca",
+    "wallpaper": "/home/hamato/Wallpapers/ayanami_rei_evangelion_magazine.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a0a17",
+        "foreground": "#c1c1c5",
+        "cursor": "#c1c1c5"
+    },
+    "colors": {
+        "color0": "#0a0a17",
+        "color1": "#c32f43",
+        "color2": "#375687",
+        "color3": "#516390",
+        "color4": "#908099",
+        "color5": "#96979a",
+        "color6": "#acadad",
+        "color7": "#c1c1c5",
+        "color8": "#59596c",
+        "color9": "#c32f43",
+        "color10": "#375687",
+        "color11": "#516390",
+        "color12": "#908099",
+        "color13": "#96979a",
+        "color14": "#acadad",
+        "color15": "#c1c1c5"
+    }
 }

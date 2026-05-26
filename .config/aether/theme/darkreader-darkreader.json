@@ -1,8 +1,8 @@
-{{
+{
     "schemeVersion": 2,
     "enabled": true,
     "fetchNews": true,
-    "theme": {{
+    "theme": {
         "mode": 1,
         "brightness": 100,
         "contrast": 100,
@@ -23,7 +23,7 @@
         "lightColorScheme": "Default",
         "darkColorScheme": "Default",
         "immediateModify": false
-    }},
+    },
     "presets": [],
     "customThemes": [],
     "enabledByDefault": true,
@@ -32,19 +32,19 @@
     "changeBrowserTheme": false,
     "syncSettings": true,
     "syncSitesFixes": true,
-    "automation": {{
+    "automation": {
       "enabled": false,
       "mode": "",
       "behavior": "OnOff"
-    }},
-    "time": {{
+    },
+    "time": {
       "activation": "18:00",
       "deactivation": "9:00"
-    }},
-    "location": {{
+    },
+    "location": {
       "latitude": null,
       "longitude": null
-    }},
+    },
     "previewNewDesign": true,
     "enableForPDF": true,
     "enableForProtectedPages": true,
@@ -53,4 +53,4 @@
     "displayedNews": [
   "thanks-2023"
     ]
-}}
+}
