@@ -13,77 +13,77 @@
 theme[main_bg]=""
 
 # Main text color
-theme[main_fg]="#a9697d"
+theme[main_fg]="#4d7706"
 
 # Title color for boxes
-theme[title]="#a9687c"
+theme[title]="#4c7605"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#80444d"
+theme[hi_fg]="#277401"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#80444d"
+theme[selected_bg]="#277401"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#04050a"
+theme[selected_fg]="#061513"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#211924"
+theme[inactive_fg]="#1c450f"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#ffb692"
+theme[proc_misc]="#94d4b7"
 
 # Cpu box outline color
-theme[cpu_box]="#140f1a"
+theme[cpu_box]="#07370d"
 
 # Memory/disks box outline color
-theme[mem_box]="#140f1a"
+theme[mem_box]="#07370d"
 
 # Net up/down box outline color
-theme[net_box]="#140f1a"
+theme[net_box]="#07370d"
 
 # Processes box outline color
-theme[proc_box]="#140f1a"
+theme[proc_box]="#07370d"
 
 # Box divider line and small boxes line color
-theme[div_line]="#140f1a"
+theme[div_line]="#07370d"
 
 # Temperature graph colors
-theme[temp_start]="#793941"
-theme[temp_mid]="#a9687c"
-theme[temp_end]="#80444d"
+theme[temp_start]="#246005"
+theme[temp_mid]="#4c7605"
+theme[temp_end]="#277401"
 
 # CPU graph colors
-theme[cpu_start]="#793941"
-theme[cpu_mid]="#a9687c"
-theme[cpu_end]="#80444d"
+theme[cpu_start]="#246005"
+theme[cpu_mid]="#4c7605"
+theme[cpu_end]="#277401"
 
 # Mem/Disk free meter
-theme[free_start]="#793941"
-theme[free_mid]="#a9687c"
-theme[free_end]="#80444d"
+theme[free_start]="#246005"
+theme[free_mid]="#4c7605"
+theme[free_end]="#277401"
 
 # Mem/Disk cached meter
-theme[cached_start]="#793941"
-theme[cached_mid]="#a9687c"
-theme[cached_end]="#80444d"
+theme[cached_start]="#246005"
+theme[cached_mid]="#4c7605"
+theme[cached_end]="#277401"
 
 # Mem/Disk available meter
-theme[available_start]="#793941"
-theme[available_mid]="#a9687c"
-theme[available_end]="#80444d"
+theme[available_start]="#246005"
+theme[available_mid]="#4c7605"
+theme[available_end]="#277401"
 
 # Mem/Disk used meter
-theme[used_start]="#793941"
-theme[used_mid]="#a9687c"
-theme[used_end]="#80444d"
+theme[used_start]="#246005"
+theme[used_mid]="#4c7605"
+theme[used_end]="#277401"
 
 # Download graph colors
-theme[download_start]="#793941"
-theme[download_mid]="#a9687c"
-theme[download_end]="#80444d"
+theme[download_start]="#246005"
+theme[download_mid]="#4c7605"
+theme[download_end]="#277401"
 
 # Upload graph colors
-theme[upload_start]="#793941"
-theme[upload_mid]="#a9687c"
-theme[upload_end]="#80444d"
+theme[upload_start]="#246005"
+theme[upload_mid]="#4c7605"
+theme[upload_end]="#277401"

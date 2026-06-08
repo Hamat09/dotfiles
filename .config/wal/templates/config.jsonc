@@ -83,10 +83,11 @@
         //   "blueman": "bluetooth",
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
         // }
+    //
     },
 
     "clock": {
-        "format": "{}",
+        "format": "{{:%H:%M}}",
         "format-alt": "{}",
         "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
