@@ -1,7 +1,7 @@
 #!/bin/bash
 status=$(warp-cli status)
 if [[ "$status" == *"Connected"* ]]; then
-  echo '{"text": "<span color=\"#d6b31b\">VPN</span> | <span color=\"#d8b312\">CONNECTED</span>", "class": "connected"}'
+  echo '{"text": "<span color=\"#3e8fb0\">VPN</span> | <span color=\"#eb6f92\">CONNECTED</span>", "class": "connected"}'
 else
-  echo '{"text": "<span color=\"#d6b31b\">VPN</span> | <span color=\"#fdd100\">DISCONNECTED</span>", "class": "disconnected"}'
+  echo '{"text": "<span color=\"#3e8fb0\">VPN</span> | <span color=\"#c4a7e7\">DISCONNECTED</span>", "class": "disconnected"}'
 fi

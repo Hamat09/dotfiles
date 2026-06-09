@@ -21,12 +21,6 @@ hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("hyprpicker -a"))
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen" }))
 
--- Bind Key to Switch to Dwindle Layout
-hl.bind(mainMod .. " + SHIFT + N", hl.dsp.exec_cmd("hyprctl keyword general:layout dwindle"))
-
--- Bind Key to Switch to Master Layout
-hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exec_cmd("hyprctl keyword general:layout scrolling"))
-
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
@@ -95,3 +89,23 @@ hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true })
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
+
+hl.bind("SUPER + tab", function()
+	local layouts = { "scrolling", "dwindle" }
+	local workspace = hl.get_active_workspace()
+	local next_layout = "dwindle"
+
+	if not workspace then
+		return
+	end
+
+	for i = 1, #layouts do
+		if layouts[i] == workspace.tiled_layout then
+			local next_layout_idx = (i % #layouts) + 1
+			next_layout = layouts[next_layout_idx]
+			break
+		end
+	end
+
+	hl.workspace_rule({ workspace = workspace.name, layout = next_layout })
+end)
