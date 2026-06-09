@@ -19,8 +19,8 @@
 }
 
 window#waybar {
-    background-color: alpha(#061513, 0.7);
-    border: 2px solid #07370d;
+    background-color: alpha(#2e2536, 0.7);
+    border: 2px solid #ae7f83;
     border-radius: 5px;
     color: @fg;
 }
@@ -28,20 +28,20 @@ window#waybar {
 #workspaces button {
     padding: 0 7px;
     margin: 5px 0px 5px 5px;
-    color: #4d7706;
+    color: #dbd2d0;
     background: transparent;
 }
 #workspaces button.active {
-    color: #061513;
-    background: #277401;
+    color: #2e2536;
+    background: #9ca2b2;
     border-radius: 0px;
 }
 #workspaces button.empty {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 #workspaces button.empty.active {
-    color: #061513;
-    background: #277401;
+    color: #2e2536;
+    background: #9ca2b2;
 }
 
 #workspaces button.urgent {
@@ -55,14 +55,14 @@ button:hover {
 }
 
 tooltip {
-  border: 2px solid #07370d;
+  border: 2px solid #ae7f83;
   border-radius: 8px;
-  color: #1c450f;
-  background-color: alpha(#061513, 0.7);
+  color: #7a4552;
+  background-color: alpha(#2e2536, 0.7);
 }
 
 tooltip label {
-  color: #1c450f;
+  color: #7a4552;
 }
 
 
@@ -79,15 +79,15 @@ tooltip label {
 }
 
 #custom-sep {
-    color: #246005;
+    color: #ce8995;
 
 }
 
 #clock {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 #pulseaudio {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 
 #pulseaudio.muted {
@@ -96,26 +96,26 @@ tooltip label {
 }
 
 #battery {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 
 #disk {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 
 #memory {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 
 #cpu {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 #custom-vpn {
-    color: #4d7706;
+    color: #dbd2d0;
 }
 
 #network {
-    color: #061513;
+    color: #2e2536;
 }
 
 #network.disconnected {
@@ -129,16 +129,16 @@ tooltip label {
 }
 
 #tray menu  {
-    border: 2px solid #07370d;
+    border: 2px solid #ae7f83;
     border-radius: 8px;
-    color: #1c450f; /* Change text color in menus */
-    background: alpha(#061513, 0.7); /* Change background of menu items */
+    color: #7a4552; /* Change text color in menus */
+    background: alpha(#2e2536, 0.7); /* Change background of menu items */
 }
 
 #tray menu :hover {
     border-radius: 0px;
-    color: #061513; 
-    background-color: #277401; /* Hover effect for menu items */
+    color: #2e2536; 
+    background-color: #9ca2b2; /* Hover effect for menu items */
 }
 
 

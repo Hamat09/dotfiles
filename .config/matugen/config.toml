@@ -4,6 +4,12 @@
 set = true
 command = "awww img --transition-type none {{ image }}"
 
+[templates.hyprland]
+input_path = '/home/hamato/.config/matugen/templates/color.lua'
+output_path = '/home/hamato/.config/matugen/generated/color.lua'
+post_hook = '''
+      ln -nfs "/home/hamato/.config/matugen/generated/color.lua" "/home/hamato/.config/hypr/modules/color.lua"
+'''
 
 [templates.kitty]
 input_path = '/home/hamato/.config/matugen/templates/colors-kitty.conf'

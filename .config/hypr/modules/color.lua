@@ -1,0 +1,1 @@
+/home/hamato/.cache/wal/color.lua

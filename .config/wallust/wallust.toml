@@ -65,4 +65,4 @@ pywalsvg = { template = 'pywal.svg', target = '/home/hamato/.config/Kvantum/pywa
 kdeglobals = { template = 'kdeglobals', target = '/home/hamato/.config/kdeglobals'}
 waybarconfig = {template = 'config.jsonc', target = '/home/hamato/.config/waybar/config.jsonc'}
 vpn = { template = 'vpn-status.sh', target = '/home/hamato/scripts/vpn-status.sh'}
-hyprland = { template = 'colors-hyprland.conf', target = '/home/hamato/.config/hypr/hyprland-colors.conf'}
+hyprland = { template = 'color.lua', target = '/home/hamato/.config/hypr/modules/color.lua'}
