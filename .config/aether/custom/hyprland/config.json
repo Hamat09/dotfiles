@@ -1,4 +1,4 @@
 {
-    "template": "colors-hyprland.conf",
-    "destination": "/home/hamato/.config/hypr/hyprland-colors.conf"
+    "template": "color.lua",
+    "destination": "/home/hamato/.config/hypr/modules/color.lua"
 }
