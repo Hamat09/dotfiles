@@ -106,6 +106,6 @@ hl.bind("SUPER + tab", function()
 			break
 		end
 	end
-
 	hl.workspace_rule({ workspace = workspace.name, layout = next_layout })
+	hl.exec_cmd([[ notify-send "LAYOUT CHANGED TO" ]] .. next_layout)
 end)
