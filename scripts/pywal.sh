@@ -48,7 +48,7 @@ if [[ $TOOL == "PYWAL" ]]; then
     SATU=$(seq -1 1 | fzf --footer="SET COLOR SATURATION [-1.0 - 1.0]")
 
     echo "SET CONTRAST"
-    CON=$(seq 1 21 | fzf --footer="SET CONTRAST [1.0 - 21.0]")
+    CON=$(seq 0 21 | fzf --footer="SET CONTRAST [0 - 21.0]")
 
     if [[ $MODE == "light" ]]; then
       wal -n -i $WALLPAPER --backend $BACKEND -l --saturate $SATU --contrast $CON

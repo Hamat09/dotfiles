@@ -79,6 +79,7 @@ hl.window_rule({
 	scrolling_width = 1.0,
 	match = { class = "firefox", title = "Mozilla Firefox" },
 })
+
 --Layer Rules--
 
 hl.layer_rule({
