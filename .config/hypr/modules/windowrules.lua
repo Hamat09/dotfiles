@@ -74,6 +74,11 @@ hl.window_rule({
 	match = { class = "org.kde.kdeconnect.app", title = "KDE Connect" },
 })
 
+hl.window_rule({
+	name = "firefox",
+	scrolling_width = 1.0,
+	match = { class = "firefox", title = "Mozilla Firefox" },
+})
 --Layer Rules--
 
 hl.layer_rule({
