@@ -1,34 +1,34 @@
 [Colors:Button]
-BackgroundNormal=#120b19
-ForeGroundNormal=#c4c2c5
-ForegroundActive=#c4c2c5
+BackgroundNormal=#242129
+ForeGroundNormal=#c8c7c9
+ForegroundActive=#c8c7c9
 
 [Colors:Selection]
-BackgroundNormal=#4b385b
-ForegroundNormal=#120b19
+BackgroundNormal=#956566
+ForegroundNormal=#242129
 
 [Colors:Tooltip]
-BackgroundNormal=#120b19
-ForegroundInactive=#c4c2c5
-ForegroundNormal=#c4c2c5
+BackgroundNormal=#242129
+ForegroundInactive=#c8c7c9
+ForegroundNormal=#c8c7c9
 
 [Colors:View]
-BackgroundNormal=#120b19
-DecorationHover=#4b385b
-ForegroundInactive=#314568
-ForegroundLink=#c4c2c5
-ForegroundNormal=#c4c2c5
-ForegroundVisited=#314568
+BackgroundNormal=#242129
+DecorationHover=#956566
+ForegroundInactive=#c4646b
+ForegroundLink=#c8c7c9
+ForegroundNormal=#c8c7c9
+ForegroundVisited=#c4646b
 
 [Colors:Window]
-BackgroundNormal=#120b19
-DecorationHover=#4b385b
-ForegroundNormal=#c4c2c5
+BackgroundNormal=#242129
+DecorationHover=#956566
+ForegroundNormal=#c8c7c9
 
 [Colors:Complementary]
-BackgroundNormal=#120b19
-DecorationHover=#4b385b
-ForegroundNormal=#c4c2c5
+BackgroundNormal=#242129
+DecorationHover=#956566
+ForegroundNormal=#c8c7c9
 
 
 [UiSettings]

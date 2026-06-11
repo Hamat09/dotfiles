@@ -77,7 +77,8 @@ hl.window_rule({
 hl.window_rule({
 	name = "firefox",
 	scrolling_width = 1.0,
-	match = { class = "firefox", title = "Mozilla Firefox" },
+	opacity = "1.0 override",
+	match = { class = "firefox" },
 })
 
 --Layer Rules--
