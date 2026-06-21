@@ -1,4 +1,4 @@
-local colors = {
+return {
 
 	wallpaper = "{wallpaper}",
 
@@ -22,5 +22,3 @@ local colors = {
 	color14 = "{color14.rgba}",
 	color15 = "{color15.rgba}",
 }
-
-return colors

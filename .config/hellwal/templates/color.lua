@@ -1,4 +1,4 @@
-local colors = {
+return {
 
 	foreground = "rgb(%%foreground%%)",
 	background = "rgb(%%background%%)",
@@ -20,5 +20,3 @@ local colors = {
 	color14 = "rgb(%%color14%%)",
 	color15 = "rgb(%%color15%%)",
 }
-
-return colors

@@ -1,4 +1,4 @@
-local colors = {
+return {
 
 	foreground = "{{base16.base07.default.hex}}",
 	background = "{{base16.base00.default.hex}}",
@@ -20,5 +20,3 @@ local colors = {
 	color14 = "{{base16.base0e.default.hex}}",
 	color15 = "{{base16.base0f.default.hex}}",
 }
-
-return colors
