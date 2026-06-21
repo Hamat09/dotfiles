@@ -90,7 +90,7 @@ if [[ $TOOL == "PYWAL" ]]; then
 elif [[ $TOOL == "MATUGEN" ]]; then
 
   echo "Choose your style:"
-  STYLE=$(printf "base16\nclassic" | fzf --footer="CHOOSE STYLE")
+  STYLE=$(printf "base16\nclassic\nclassic-background" | fzf --footer="CHOOSE STYLE")
   echo "$STYLE"
 
   echo "Choose your wallpaper:"
@@ -106,9 +106,12 @@ elif [[ $TOOL == "MATUGEN" ]]; then
   if [[ $STYLE == "base16" ]]; then
     rm -rf "/home/hamato/.config/matugen/templates"
     cp -r "/home/hamato/.config/matugen/style-base16/templates" "/home/hamato/.config/matugen"
-  else
+  elif [[ $STYLE == "classic" ]]; then
     rm -rf "/home/hamato/.config/matugen/templates"
     cp -r "/home/hamato/.config/matugen/style-classic/templates" "/home/hamato/.config/matugen"
+  else
+    rm -rf "/home/hamato/.config/matugen/templates"
+    cp -r "/home/hamato/.config/matugen/style-classic-background/templates" "/home/hamato/.config/matugen"
   fi
 
   matugen image $WALLPAPER --mode $MODE --type $SCHEME --show-colors

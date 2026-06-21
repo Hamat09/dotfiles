@@ -3,36 +3,36 @@
 " -----------------------------------------------------------------------------
 
 " Colors
-set default-bg              "#043a40"
-set default-fg              "#04cccc"
+set default-bg              "rgba(37, 53, 0, 1)"
+set default-fg              "#b8cf84"
 
-set statusbar-bg            "#043a40"
-set statusbar-fg            "#04cccc"
+set statusbar-bg            "#253500"
+set statusbar-fg            "#b8cf84"
 
-set inputbar-bg             "#043a40"
-set inputbar-fg             "#04cccc"
+set inputbar-bg             "#253500"
+set inputbar-fg             "#b8cf84"
 
-set notification-error-bg   "#06d7b4"
-set notification-error-fg   "#043a40"
+set notification-error-bg   "#690005"
+set notification-error-fg   "#ffb4ab"
 
-set notification-warning-bg "#06d7b4"
-set notification-warning-fg "#043a40"
+set notification-warning-bg "#d3ec9e"
+set notification-warning-fg "#93000a"
 
-set highlight-color         ""
-set highlight-active-color  ""
+set highlight-color         "#d3ec9e"
+set highlight-active-color  "#b8cf84"
 
-set completion-highlight-fg "#04cccc"
-set completion-highlight-bg "#03cbcc"
+set completion-highlight-fg "#253500"
+set completion-highlight-bg #b8cf84""
 
-set completion-bg           "#043a40"
-set completion-fg           "#03cbcc"
+set completion-bg           "#253500"
+set completion-fg           "#b8cf84"
 
-set notification-bg         "#043a40"
-set notification-fg         "#04cccc"
+set notification-bg         "#253500"
+set notification-fg         "#b8cf84"
 
-set recolor                 "false"
-set recolor-lightcolor      "#043a40"
-set recolor-darkcolor       "#04cccc"
+set recolor                 "true"
+set recolor-lightcolor      "rgba(37, 53, 0, 1)"
+set recolor-darkcolor       "#b8cf84"
 set recolor-reverse-video   "true"
 set recolor-keephue         "true"
 
@@ -47,7 +47,7 @@ set search-hadjust true
 set adjust-open width
 
 " Typography
-set font "JetBrains Mono Nerd Font 12"
+set font "FiraCode Nerd Font 12"
 
 " -----------------------------------------------------------------------------
 " Zathura mappings
