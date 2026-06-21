@@ -1,0 +1,48 @@
+[mgr]
+cwd = { fg = "{{base16.base09.default.hex}}" }
+# Border
+border_symbol = ""
+border_style  = { fg = "{{base16.base09.default.hex}}" }
+
+
+[indicator]
+padding = { open = "█", close = "█" }
+current = { fg = "{{base16.base00.default.hex}}", bg = "{{colors.source_color.default.hex}}"}
+parent = { fg = "{{base16.base00.default.hex}}", bg = "{{colors.source_color.default.hex}}"}
+preview = { fg = "{{base16.base00.default.hex}}", bg = "{{colors.source_color.default.hex}}"}
+
+[status]
+sep_left  = { open = "█", close = "█" }
+sep_right = { open = "█", close = "█" }
+
+[mode]
+#Mode
+normal_main = { bg = "{{colors.source_color.default.hex}}", fg = "{{base16.base00.default.hex}}", bold = true }
+normal_alt  = { bg = "{{base16.base09.default.hex}}", fg = "{{base16.base00.default.hex}}" }
+
+[tabs]
+active    = { fg = "{{base16.base00.default.hex}}", bold = true, bg = "{{base16.base09.default.hex}}" }
+inactive  = { fg = "{{base16.base09.default.hex}}", bg = "{{base16.base00.default.hex}}" }
+sep_inner = { open = "█",close = "█" }
+
+[icon]
+
+dirs  = [ 
+ 	{ name = ".config", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Wallpapers", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "scripts", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Games", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Desktop", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Development", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Documents", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Downloads", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Library", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Movies", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Music", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Pictures", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Public", text = "", fg = "{{base16.base09.default.hex}}" }, 
+ 	{ name = "Videos", text = "", fg = "{{base16.base09.default.hex}}" },
+  { name = "Storage",text = "",  fg = "{{base16.base09.default.hex}}"},  
+ ] 
+
+

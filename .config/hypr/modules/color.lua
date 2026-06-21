@@ -1,1 +1,1 @@
-/home/hamato/.cache/cwal/color.lua
+/home/hamato/.config/matugen/generated/color.lua

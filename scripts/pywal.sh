@@ -89,6 +89,10 @@ if [[ $TOOL == "PYWAL" ]]; then
 
 elif [[ $TOOL == "MATUGEN" ]]; then
 
+  echo "Choose your style:"
+  STYLE=$(printf "base16\nclassic" | fzf --footer="CHOOSE STYLE")
+  echo "$STYLE"
+
   echo "Choose your wallpaper:"
   WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | fzf --footer="CHOOSE WALLPAPER" --preview='chafa -s ${FZF_PREVIEW_COLUMNS}x${FZF_PREVIEW_LINES} {}')
   echo "$WALLPAPER"
@@ -99,7 +103,15 @@ elif [[ $TOOL == "MATUGEN" ]]; then
   echo "Choose color Scheme:"
   SCHEME=$(printf "scheme-content\nscheme-expressive\nscheme-fidelity\nscheme-fruit-salad\nscheme-monochrome\nscheme-neutral\nscheme-rainbow\nscheme-tonal-spot\nscheme-vibrant" | fzf --footer="CHOOSE SCHEME")
 
-  matugen image $WALLPAPER --mode $MODE --type $SCHEME
+  if [[ $STYLE == "base16" ]]; then
+    rm -rf "/home/hamato/.config/matugen/templates"
+    cp -r "/home/hamato/.config/matugen/style-base16/templates" "/home/hamato/.config/matugen"
+  else
+    rm -rf "/home/hamato/.config/matugen/templates"
+    cp -r "/home/hamato/.config/matugen/style-classic/templates" "/home/hamato/.config/matugen"
+  fi
+
+  matugen image $WALLPAPER --mode $MODE --type $SCHEME --show-colors
   pkill -USR1 cava
   pkill -USR2 btop
   pkill -USR1 kitty
