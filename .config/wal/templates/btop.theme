@@ -19,7 +19,7 @@ theme[main_fg]="{color7}"
 theme[title]="{color2}"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="{{colors.secondary.default.hex}}"
+theme[hi_fg]="{color3}"
 
 # Background color of selected item in processes box
 theme[selected_bg]="{color1}"
@@ -59,23 +59,23 @@ theme[cpu_mid]="{color2}"
 theme[cpu_end]="{color1}"
 
 # Mem/Disk free meter
-theme[free_start]="{{colors.secondary.default.hex}}"
-theme[free_mid]=""
-theme[free_end]="{{colors.secondary_container.default.hex}}"
+theme[free_start]="{color3}"
+theme[free_mid]="{color2}"
+theme[free_end]="{color1}"
 
 # Mem/Disk cached meter
-theme[cached_start]="{{colors.tertiary.default.hex}}"
-theme[cached_mid]=""
-theme[cached_end]="{{colors.tertiary_container.default.hex}}"
+theme[cached_start]="{color3}"
+theme[cached_mid]="{color2}"
+theme[cached_end]="{color1}"
 
 # Mem/Disk available meter
 theme[available_start]="{color3}"
-theme[available_mid]=""
+theme[available_mid]="{color2}"
 theme[available_end]="{color1}"
 
 # Mem/Disk used meter
 theme[used_start]="{color3}"
-theme[used_mid]=""
+theme[used_mid]="{color2}"
 theme[used_end]="{color1}"
 
 # Download graph colors
