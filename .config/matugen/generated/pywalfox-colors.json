@@ -1,22 +1,22 @@
 {
-  "wallpaper": "/home/hamato/Wallpapers/car_outside_supermarket.png",
+  "wallpaper": "/home/hamato/Wallpapers/a_yellow_and_black_logo.png",
   "alpha": "100",
   "colors": {
-    "color0": "#121d22",
+    "color0": "#fdf3db",
     "color1": "",
     "color2": "",
-    "color3": "#54d5ff",
+    "color3": "#715c00",
     "color4": "",
-    "color5": "#accae5",
-    "color6": "",
-    "color7": "#2b363b",
-    "color8": "#121d22",
-    "color9": "",
-    "color10": "#54d5ff",
+    "color5": "#655f31",
+    "color6": "#715c00",
+    "color7": "#ece2ca",
+    "color8": "#fdf3db",
+    "color9": "#715c00",
+    "color10": "#715c00",
     "color11": "",
     "color12": "",
-    "color13": "#accae5",
+    "color13": "#655f31",
     "color14": "",
-    "color15": "#d9e4ea"
+    "color15": "#201b0d"
   }
 }
