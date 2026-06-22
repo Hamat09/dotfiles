@@ -1,22 +1,22 @@
 {
-  "wallpaper": "/home/hamato/Wallpapers/gruvbox_forest-4.png",
+  "wallpaper": "/home/hamato/Wallpapers/a_cartoon_of_a_vehicle_with_a_monster_on_it.jpg",
   "alpha": "100",
   "colors": {
-    "color0": "#fef2e5",
+    "color0": "#f7f3ee",
     "color1": "",
     "color2": "",
-    "color3": "#7e570f",
+    "color3": "#615f4a",
     "color4": "",
-    "color5": "#6f5b40",
-    "color6": "#7e570f",
-    "color7": "#ede1d4",
-    "color8": "#fef2e5",
-    "color9": "#7e570f",
-    "color10": "#7e570f",
+    "color5": "#605f51",
+    "color6": "#615f4a",
+    "color7": "#e6e2dd",
+    "color8": "#f7f3ee",
+    "color9": "#615f4a",
+    "color10": "#615f4a",
     "color11": "",
     "color12": "",
-    "color13": "#6f5b40",
+    "color13": "#605f51",
     "color14": "",
-    "color15": "#201b13"
+    "color15": "#1c1c19"
   }
 }

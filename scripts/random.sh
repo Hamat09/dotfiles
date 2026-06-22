@@ -10,9 +10,11 @@ if [[ $TOOL == "PYWAL" ]]; then
   CHOICE=$(shuf -e "WALLPAPER" "THEME" -n 1)
 
   if [[ $CHOICE == "THEME" ]]; then
+    WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | shuf -n 1)
+
     STHEME=$(shuf -e "DARK" "LIGHT" "CUSTOM_DARK" "CUSTOM_LIGHT" -n 1)
 
-    SATU=$(seq -1 1 | shuf -n 1)
+    SATU=$(shuf -e 0 -n 1)
 
     if [[ $STHEME == "DARK" ]]; then
       DTHEME=$(find "$DARK_THEME_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | shuf -n 1)
@@ -36,9 +38,9 @@ if [[ $TOOL == "PYWAL" ]]; then
 
     BACKEND=$(wal --backend | sed "/Backends/d" | tr -d '-' | shuf -n 1)
 
-    SATU=$(seq -1 1 | shuf -n 1)
+    SATU=$(shuf -e 0 -n 1)
 
-    CON=$(seq 0 21 | shuf -n 1)
+    CON=$(shuf -e 0 -n 1)
 
     if [[ $MODE == "light" ]]; then
       wal -n -i $WALLPAPER --backend $BACKEND -l --saturate $SATU --contrast $CON
@@ -79,7 +81,7 @@ if [[ $TOOL == "PYWAL" ]]; then
 
 elif [[ $TOOL == "MATUGEN" ]]; then
 
-  STYLE=$(shuf -e "base16" "classic" "classic-background" -n 1)
+  STYLE=$(shuf -e "base16" "classic" -n 1)
 
   WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | shuf -n 1)
 
@@ -90,12 +92,9 @@ elif [[ $TOOL == "MATUGEN" ]]; then
   if [[ $STYLE == "base16" ]]; then
     rm -rf "/home/hamato/.config/matugen/templates"
     cp -r "/home/hamato/.config/matugen/style-base16/templates" "/home/hamato/.config/matugen"
-  elif [[ $STYLE == "classic" ]]; then
-    rm -rf "/home/hamato/.config/matugen/templates"
-    cp -r "/home/hamato/.config/matugen/style-classic/templates" "/home/hamato/.config/matugen"
   else
     rm -rf "/home/hamato/.config/matugen/templates"
-    cp -r "/home/hamato/.config/matugen/style-classic-background/templates" "/home/hamato/.config/matugen"
+    cp -r "/home/hamato/.config/matugen/style-classic/templates" "/home/hamato/.config/matugen"
   fi
 
   matugen image $WALLPAPER --mode $MODE --type $SCHEME
@@ -112,11 +111,11 @@ elif [[ $TOOL == "HELLWAL" ]]; then
 
   MODE=$(shuf -e "dark" "light" -n 1)
 
-  NEON=$(shuf -e "on" "off" -n 1)
+  NEON=$(shuf -e "off" -n 1)
 
-  COLOR=$(shuf -e "on" "off" -n 1)
+  COLOR=$(shuf -e "off" -n 1)
 
-  INVERT=$(shuf -e "on" "off" -n 1)
+  INVERT=$(shuf -e "off" -n 1)
 
   if [[ $MODE == "light" ]]; then
     if [[ $NEON == "on" ]]; then
@@ -215,9 +214,9 @@ elif [[ $TOOL == "CWAL" ]]; then
 
   BACKEND=$(cwal --list-backends | sed "/Backends/d" | tr -d '>' | tr -d '-' | shuf -n 1)
 
-  SATU=$(seq -1 1 | shuf -n 1)
+  SATU=$(shuf -e 0 -n 1)
 
-  CON=$(seq 1 21 | shuf -n 1)
+  CON=$(shuf -e 1 -n 1)
 
   cwal --mode $MODE --backend $BACKEND --saturation $SATU --contrast $CON --img $WALLPAPER
 
@@ -258,7 +257,7 @@ elif [[ $TOOL == "WALLUST" ]]; then
 
   BACKEND=$(shuf -e "full" "resized" "wal" "thumb" "fastresize" "kmeans" -n 1)
 
-  SATU=$(seq 1 100 | shuf -n 1)
+  SATU=$(shuf -e 1 -n 1)
 
   COLSP=$(shuf -e "lab" "labmixed" "lch" "lchmixed" -n 1)
 
