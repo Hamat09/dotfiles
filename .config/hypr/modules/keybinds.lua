@@ -16,6 +16,7 @@ hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("/home/hamato/scripts/waybar-reload.s
 hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("/home/hamato/scripts/power-profile.sh"))
 hl.bind(mainMod .. " + H", hl.dsp.exec_cmd("/home/hamato/scripts/toggle-warp.sh"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("/home/hamato/scripts/pywal_tui.sh"))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("/home/hamato/scripts/random.sh"))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("firefox"))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("hyprpicker -a"))
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
