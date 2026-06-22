@@ -12,6 +12,11 @@ if [[ $TOOL == "PYWAL" ]]; then
   CHOICE=$(printf "WALLPAPER\nTHEME" | fzf --footer="WALLPAPER OR THEME")
 
   if [[ $CHOICE == "THEME" ]]; then
+
+    echo "Choose your wallpaper:"
+    WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | fzf --footer="CHOOSE WALLPAPER" --preview='chafa -s ${FZF_PREVIEW_COLUMNS}x${FZF_PREVIEW_LINES} {}')
+    echo "$WALLPAPER"
+
     echo "TYPE OF THEME"
     STHEME=$(printf "DARK\nLIGHT\nCUSTOM_DARK\nCUSTOM_LIGHT" | fzf --footer="TYPE OF THEME")
 

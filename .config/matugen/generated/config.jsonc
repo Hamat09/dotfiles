@@ -88,27 +88,32 @@
     "clock": {
         "format": "{:%H:%M}",
         "format-alt": "{:%A, %B %d, %Y (%R)}",
-        "tooltip-format": "<span>{calendar}</span>",
+     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
       "mode": "month",
       "mode-mon-col": 3,
       "on-scroll": 1,
       "on-click-right": "mode",
       "format": {
-        "months": "<span color=\"#615f4a\"><b>{}</b></span>",
-        "weekdays": "<span color=\"#615f4a\"><b>{}</b></span>",
-        "today": "<span color=\"#ffffff\"><b>{}</b></span>"
+        "months": "<span color=\"#695F4C\"><b>{}</b></span>",
+        "weekdays": "<span color=\"#4C74A8\"><b>{}</b></span>",
+        "today": "<span color=\"#5874AE\"><b>{}</b></span>"
       }
     },
     },
 
     "cpu": {
-        "format": "<span color=\"#615f4a\">CPU</span> | <span color=\"#615f4a\">{usage}%</span>",
+        "format": "<span color=\"#4C74A8\">CPU</span> | <span color=\"#734149\">{usage}%</span>",
         "tooltip": true ,
         "on-click": "/home/hamato/scripts/btop.sh"
     },
     "memory": {
-        "format": "<span color=\"#615f4a\">RAM</span> | <span color=\"#615f4a\">{used} GB</span>"
+        "format": "<span color=\"#4C74A8\">RAM</span> | <span color=\"#734149\">{used} GB</span>"
+    },
+    "disk": {
+        "interval": 60,
+        "path": "/",
+        "format": "Disk / {free}"
     },
     "battery": {
         "bat": "BAT0",
@@ -117,73 +122,75 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "<span color=\"#615f4a\">DISCHARGING</span> | <span color=\"#615f4a\">{capacity}%</span>",
-        "format-full": "<span color=\"#615f4a\">CHARGED</span>",
-        "format-charging": "<span color=\"#615f4a\">CHARGING</span> | <span color=\"#615f4a\">{capacity}%</span>"
-  },
+        "format": "<span color=\"#4C74A8\">DISCHARGING</span> | <span color=\"#734149\">{capacity}%</span>",
+        "format-full": "<span color=\"#4C74A8\">CHARGED</span>",
+        "format-charging": "<span color=\"#4C74A8\">CHARGING</span> | <span color=\"#734149\">{capacity}%</span>"
+ 
+    },
     "network": {
         "tooltip": true ,
-        "format-wifi": "<span color=\"#615f4a\">{essid}</span>",
-        "format-ethernet": "<span color=\"#615f4a\">ETHERNET</span>",
-        "tooltip-format-wifi": "<span color=\"#615f4a\">Network:</span> <big><b>{essid}</b></big>\n<span color=\"#615f4a\">Signal strength:</span> <b>{signaldBm}dBm ({signalStrength}%)</b>\n<span color=\"#615f4a\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#615f4a\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#615f4a\">Interface:</span> <b>{ifname}</b>\n<span color=\"#615f4a\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#615f4a\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#615f4a\">Netmask:</span> <b>{netmask}</b>",
-        "tooltip-format-ethernet": "<span color=\"#615f4a\">Network:</span> <big><b>Ethernet</b></big>\n<span color=\"#615f4a\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#615f4a\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#615f4a\">Interface:</span> <b>{ifname}</b>\n<span color=\"#615f4a\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#615f4a\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#615f4a\">Netmask:</span> <b>{netmask}</b>",
+        "format-wifi": "<span color=\"#4C74A8\">{essid}</span>",
+        "format-ethernet": "<span color=\"#4C74A8\">ETHERNET</span>",
+        "tooltip-format-wifi": "<span color=\"#4C74A8\">Network:</span> <big><b>{essid}</b></big>\n<span color=\"#4C74A8\">Signal strength:</span> <b>{signaldBm}dBm ({signalStrength}%)</b>\n<span color=\"#4C74A8\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#4C74A8\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#4C74A8\">Interface:</span> <b>{ifname}</b>\n<span color=\"#4C74A8\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#4C74A8\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#4C74A8\">Netmask:</span> <b>{netmask}</b>",
+        "tooltip-format-ethernet": "<span color=\"#4C74A8\">Network:</span> <big><b>Ethernet</b></big>\n<span color=\"#4C74A8\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#4C74A8\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#4C74A8\">Interface:</span> <b>{ifname}</b>\n<span color=\"#4C74A8\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#4C74A8\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#4C74A8\">Netmask:</span> <b>{netmask}</b>",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "DISCONNECTED",
         "tooltip-format-disconnected": "NO INTERNET",
         "interval": 1,
         "on-click": "/home/hamato/scripts/wlctl.sh"
     },
-    "custom/sep": {
+
+        "custom/sep": {
         "format" : "▊",
     },
     "custom/sep1": {
-        "format" : "<span color=\"#d5c4b9\"> █</span>",
+        "format" : "<span color=\"#5874AE\"> █</span>",
     },
     "custom/sep2": {
-        "format" : "<span color=\"#bbaaa0\"> █</span>",
+        "format" : "<span color=\"#4C74A8\"> █</span>",
     },
     "custom/sep3": {
-        "format" : "<span color=\"#a19086\"> █</span>",
+        "format" : "<span color=\"#5C4C7C\"> █</span>",
     },
     "custom/sep4": {
-        "format" : "<span color=\"#87766d\"> █</span>",
+        "format" : "<span color=\"#4D4273\"> █</span>",
     },
     "custom/sep5": {
-        "format" : "<span color=\"#6c5c54\"> █</span>",
+        "format" : "<span color=\"#734149\"> █</span>",
     },
     "custom/sep6": {
-        "format" : "<span color=\"#52423b\"> █</span>",
+        "format" : "<span color=\"#387D66\"> █</span>",
     },
     "custom/sep7": {
-        "format" : "<span color=\"#382822\"> █</span>",
+        "format" : "<span color=\"#695F4C\"> █</span>",
     },
     "custom/sep8": {
-        "format" : "<span color=\"#a96f4e\"> █</span>",
+        "format" : "<span color=\"#20242D\"> █</span>",
     },
     "custom/sep9": {
-        "format" : "<span color=\"#99654b\"> █</span>",
+        "format" : "<span color=\"#759AE8\"> █</span>",
     },
     "custom/sep10": {
-        "format" : "<span color=\"#825442\"> █</span>",
+        "format" : "<span color=\"#659AE0\"> █</span>",
     },
     "custom/sep11": {
-        "format" : "<span color=\"#99755c\"> █</span>",
+        "format" : "<span color=\"#7A66A5\"> █</span>",
     },
     "custom/sep12": {
-        "format" : "<span color=\"#af9c73\"> █</span>",
+        "format" : "<span color=\"#675899\"> █</span>",
     },
     "custom/sep13": {
-        "format" : "<span color=\"#a28969\"> █</span>",
+        "format" : "<span color=\"#9A5762\"> █</span>",
     },
     "custom/sep14": {
-        "format" : "<span color=\"#9d7e64\"> █</span>",
+        "format" : "<span color=\"#4AA789\"> █</span>",
     },
     "custom/sep15": {
-        "format" : "<span color=\"#bdb38a\"> █</span>",
+        "format" : "<span color=\"#232019\"> █</span>",
     },
 
     "pulseaudio": {
-    "format": "<span color=\"#615f4a\">VOL</span> | <span color=\"#615f4a\">{volume}%</span>",
+    "format": "<span color=\"#4C74A8\">VOL</span> | <span color=\"#734149\">{volume}%</span>",
     "format-bluetooth": "{volume}% ",
     "format-muted": "MUTED",
     "format-icons": {
@@ -206,7 +213,7 @@
   "custom/vpn": {
     "format": "{}",
     "exec": "/home/hamato/scripts/vpn-status.sh",
-    "interval": 1,
+    "interval": 3,
     "return-type": "json",
     "on-click": "bash ~/.config/waybar/toggle-vpn.sh"
  }
