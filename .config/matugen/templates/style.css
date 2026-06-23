@@ -19,8 +19,8 @@
 }
 
 window#waybar {
-    background-color: alpha({{base16.base00.default.hex}}, 0.7);
-    border: 2px solid {{base16.base0c.default.hex}};
+    background-color: alpha({{colors.surface_container_low.default.hex}}, 0.7);
+    border: 2px solid {{colors.primary.default.hex}};
     border-radius: 5px;
     color: @fg;
 }
@@ -28,20 +28,20 @@ window#waybar {
 #workspaces button {
     padding: 0 7px;
     margin: 5px 0px 5px 5px;
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
     background: transparent;
 }
 #workspaces button.active {
-    color: {{base16.base00.default.hex}};
-    background: {{colors.source_color.default.hex}};
+    color: {{colors.surface_container_low.default.hex}};
+    background: {{colors.primary.default.hex}};
     border-radius: 0px;
 }
 #workspaces button.empty {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.surface_container_low.default.hex}};
 }
 #workspaces button.empty.active {
-    color: {{base16.base00.default.hex}};
-    background: {{colors.source_color.default.hex}};
+    color: {{colors.surface_container_low.default.hex}};
+    background: {{colors.primary.default.hex}};
 }
 
 #workspaces button.urgent {
@@ -55,14 +55,14 @@ button:hover {
 }
 
 tooltip {
-  border: 2px solid {{base16.base0c.default.hex}};
+  border: 2px solid {{colors.primary.default.hex}};
   border-radius: 8px;
-  color: {{base16.base0b.default.hex}};
-  background-color: alpha({{base16.base00.default.hex}}, 0.7);
+  color: {{colors.primary.default.hex}};
+  background-color: alpha({{colors.surface_container_low.default.hex}}, 0.7);
 }
 
 tooltip label {
-  color: {{base16.base0b.default.hex}};
+  color: {{colors.primary.default.hex}};
 }
 
 
@@ -79,15 +79,15 @@ tooltip label {
 }
 
 #custom-sep {
-    color: {{base16.base09.default.hex}};
+    color: {{colors.primary.default.hex}};
 
 }
 
 #clock {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 #pulseaudio {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 
 #pulseaudio.muted {
@@ -96,26 +96,26 @@ tooltip label {
 }
 
 #battery {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 
 #disk {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 
 #memory {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 
 #cpu {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 #custom-vpn {
-    color: {{base16.base07.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 
 #network {
-    color: {{base16.base00.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 
 #network.disconnected {
@@ -129,16 +129,16 @@ tooltip label {
 }
 
 #tray menu  {
-    border: 2px solid {{base16.base0c.default.hex}};
+    border: 2px solid {{colors.primary.default.hex}};
     border-radius: 8px;
-    color: {{base16.base0b.default.hex}}; /* Change text color in menus */
-    background: alpha({{base16.base00.default.hex}}, 0.7); /* Change background of menu items */
+    color: {{colors.primary.default.hex}}; /* Change text color in menus */
+    background: alpha({{colors.surface_container_low.default.hex}}, 0.7); /* Change background of menu items */
 }
 
 #tray menu :hover {
     border-radius: 0px;
-    color: {{base16.base00.default.hex}}; 
-    background-color: {{colors.source_color.default.hex}}; /* Hover effect for menu items */
+    color: {{colors.surface_container_low.default.hex}}; 
+    background-color: {{colors.primary.default.hex}}; /* Hover effect for menu items */
 }
 
 

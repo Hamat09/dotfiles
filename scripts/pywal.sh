@@ -20,21 +20,18 @@ if [[ $TOOL == "PYWAL" ]]; then
     echo "TYPE OF THEME"
     STHEME=$(printf "DARK\nLIGHT\nCUSTOM_DARK\nCUSTOM_LIGHT" | fzf --footer="TYPE OF THEME")
 
-    echo "SET COLOR SATURATION"
-    SATU=$(seq -1 1 | fzf --footer="SET COLOR SATURATION [-1.0 - 1.0]")
-
     if [[ $STHEME == "DARK" ]]; then
       DTHEME=$(find "$DARK_THEME_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {}" --footer="CHOOSE DARK THEME")
-      wal -q -f $DTHEME --saturate $SATU
+      wal -q -f $DTHEME
     elif [[ $STHEME == "LIGHT" ]]; then
       LTHEME=$(find "$LIGHT_THEME_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {} -l" --footer="CHOOSE LIGHT THEME")
-      wal -f $LTHEME --saturate $SATU -l
+      wal -f $LTHEME -l
     elif [[ $STHEME == "CUSTOM_DARK" ]]; then
       CDTHEME=$(find "$CUSTOM_DARK_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {}" --footer="CHOOSE CUSTOM DARK THEME")
-      wal -f $CDTHEME --saturate $SATU
+      wal -f $CDTHEME
     else
       CLTHEME=$(find "$CUSTOM_LIGHT_DIR" -type f -printf "%f\\n" -name "*.json" | sed 's/\.json$//' | fzf --preview="wal -f {}" --footer="CHOOSE CUSTOM LIGHT THEME")
-      wal -f $CLTHEME --saturate $SATU
+      wal -f $CLTHEME
 
     fi
 

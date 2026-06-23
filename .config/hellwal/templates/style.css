@@ -33,7 +33,7 @@ window#waybar {
 }
 #workspaces button.active {
     color: #%%background%%;
-    background: #%%color1.hex%%;
+    background: #%%color4.hex%%;
     border-radius: 0px;
 }
 #workspaces button.empty {
@@ -41,7 +41,7 @@ window#waybar {
 }
 #workspaces button.empty.active {
     color: #%%background%%;
-    background: #%%color1.hex%%;
+    background: #%%color4.hex%%;
 }
 
 #workspaces button.urgent {
@@ -83,7 +83,7 @@ tooltip label {
 }
 
 #clock {
-    color: #%%color2.hex%%;
+    color: #%%color6.hex%%;
 }
 #pulseaudio {
     color: #%%color7.hex%%;
@@ -137,7 +137,7 @@ tooltip label {
 #tray menu :hover {
     border-radius: 0px;
     color: #%%background%%; 
-    background-color: #%%color1.hex%%; /* Hover effect for menu items */
+    background-color: #%%color4.hex%%; /* Hover effect for menu items */
 }
 
 

@@ -51,7 +51,7 @@ configuration {
     var-win-bg:          #%% background.hex %%B3;
     var-input-bg:        #%% background.hex %%B3;
     var-urgent-bg:        #f7768e;
-    var-active-bg:       #%% color1.hex %%;
+    var-active-bg:       #%% color4.hex %%;
     var-message-bg:      #%% background.hex %%B3;
     
     /* Text Colors */
