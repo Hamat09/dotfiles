@@ -1,22 +1,29 @@
 {
-  "wallpaper": "/home/hamato/Wallpapers/purple_girl_crt.png",
-  "alpha": "100",
-  "colors": {
-    "color0": "#feeffe",
-    "color1": "",
-    "color2": "",
-    "color3": "#8000b1",
-    "color4": "",
-    "color5": "#81449c",
-    "color6": "#8000b1",
-    "color7": "#eddeed",
-    "color8": "#feeffe",
-    "color9": "#8000b1",
-    "color10": "#8000b1",
-    "color11": "",
-    "color12": "",
-    "color13": "#81449c",
-    "color14": "",
-    "color15": "#211923"
-  }
+    "checksum": "d7770dcca0c27851da0823cd6ca7849a",
+    "wallpaper": "/home/hamato/Wallpapers/astronaut-nord.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#151617",
+        "foreground": "#c4c4c5",
+        "cursor": "#c4c4c5"
+    },
+    "colors": {
+        "color0": "#151617",
+        "color1": "#b7c2c5",
+        "color2": "#7eafc5",
+        "color3": "#6280aa",
+        "color4": "#7894c3",
+        "color5": "#466aaa",
+        "color6": "#7d8aab",
+        "color7": "#c4c4c5",
+        "color8": "#5c6571",
+        "color9": "#b7c2c5",
+        "color10": "#7eafc5",
+        "color11": "#6280aa",
+        "color12": "#7894c3",
+        "color13": "#466aaa",
+        "color14": "#7d8aab",
+        "color15": "#c4c4c5"
+    }
 }

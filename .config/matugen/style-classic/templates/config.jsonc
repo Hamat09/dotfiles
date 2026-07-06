@@ -11,7 +11,7 @@
 
     // Choose the order of the modules
     "modules-left": [
-        "ext/workspaces",
+        "hyprland/workspaces",
         "custom/sep1",
         "custom/sep2",
         "custom/sep3",

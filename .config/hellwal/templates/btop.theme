@@ -22,7 +22,7 @@ theme[title]="#%%color2.hex%%"
 theme[hi_fg]="#%%color3.hex%%"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#%%color1.hex%%"
+theme[selected_bg]="#%%color4.hex%%"
 
 # Foreground color of selected item in processes box
 theme[selected_fg]="#%%background.hex%%"
@@ -50,40 +50,40 @@ theme[div_line]="#%%color6.hex%%"
 
 # Temperature graph colors
 theme[temp_start]="#%%color3.hex%%"
-theme[temp_mid]="#%%color2.hex%%"
-theme[temp_end]="#%%color1.hex%%"
+theme[temp_mid]="#%%color6.hex%%"
+theme[temp_end]="#%%color4.hex%%"
 
 # CPU graph colors
 theme[cpu_start]="#%%color3.hex%%"
-theme[cpu_mid]="#%%color2.hex%%"
-theme[cpu_end]="#%%color1.hex%%"
+theme[cpu_mid]="#%%color6.hex%%"
+theme[cpu_end]="#%%color4.hex%%"
 
 # Mem/Disk free meter
 theme[free_start]="#%%color3.hex%%"
-theme[free_mid]="#%%color2.hex%%"
-theme[free_end]="#%%color1.hex%%"
+theme[free_mid]="#%%color6.hex%%"
+theme[free_end]="#%%color4.hex%%"
 
 # Mem/Disk cached meter
 theme[cached_start]="#%%color3.hex%%"
-theme[cached_mid]="#%%color2.hex%%"
-theme[cached_end]="#%%color1.hex%%"
+theme[cached_mid]="#%%color6.hex%%"
+theme[cached_end]="#%%color4.hex%%"
 
 # Mem/Disk available meter
 theme[available_start]="#%%color3.hex%%"
-theme[available_mid]="#%%color2.hex%%"
-theme[available_end]="#%%color1.hex%%"
+theme[available_mid]="#%%color6.hex%%"
+theme[available_end]="#%%color4.hex%%"
 
 # Mem/Disk used meter
 theme[used_start]="#%%color3.hex%%"
-theme[used_mid]="#%%color2.hex%%"
-theme[used_end]="#%%color1.hex%%"
+theme[used_mid]="#%%color6.hex%%"
+theme[used_end]="#%%color4.hex%%"
 
 # Download graph colors
 theme[download_start]="#%%color3.hex%%"
-theme[download_mid]="#%%color2.hex%%"
-theme[download_end]="#%%color1.hex%%"
+theme[download_mid]="#%%color6.hex%%"
+theme[download_end]="#%%color4.hex%%"
 
 # Upload graph colors
 theme[upload_start]="#%%color3.hex%%"
-theme[upload_mid]="#%%color2.hex%%"
-theme[upload_end]="#%%color1.hex%%"
+theme[upload_mid]="#%%color6.hex%%"
+theme[upload_end]="#%%color4.hex%%"

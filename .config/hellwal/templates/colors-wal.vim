@@ -1,6 +1,6 @@
 let color0  = "#%% color0.hex %%"
-let color1  = "#%% color1.hex %%"
-let color2  = "#%% color2.hex %%"
+let color1  = "#%% color4.hex %%"
+let color2  = "#%% color6.hex %%"
 let color3  = "#%% color3.hex %%"
 let color4  = "#%% color4.hex %%"
 let color5  = "#%% color5.hex %%"
