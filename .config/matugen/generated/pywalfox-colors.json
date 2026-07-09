@@ -1,29 +1,29 @@
 {
-    "checksum": "d7770dcca0c27851da0823cd6ca7849a",
-    "wallpaper": "/home/hamato/Wallpapers/astronaut-nord.png",
+    "checksum": "d9cd2a9ea984f12898246ac39d2231a9",
+    "wallpaper": "/home/hamato/Wallpapers/anime-water.png",
     "alpha": "100",
 
     "special": {
-        "background": "#151617",
-        "foreground": "#c4c4c5",
-        "cursor": "#c4c4c5"
+        "background": "#120b19",
+        "foreground": "#c4c2c5",
+        "cursor": "#c4c2c5"
     },
     "colors": {
-        "color0": "#151617",
-        "color1": "#b7c2c5",
-        "color2": "#7eafc5",
-        "color3": "#6280aa",
-        "color4": "#7894c3",
-        "color5": "#466aaa",
-        "color6": "#7d8aab",
-        "color7": "#c4c4c5",
-        "color8": "#5c6571",
-        "color9": "#b7c2c5",
-        "color10": "#7eafc5",
-        "color11": "#6280aa",
-        "color12": "#7894c3",
-        "color13": "#466aaa",
-        "color14": "#7d8aab",
-        "color15": "#c4c4c5"
+        "color0": "#120b19",
+        "color1": "#4b385b",
+        "color2": "#314568",
+        "color3": "#585053",
+        "color4": "#56496f",
+        "color5": "#664f79",
+        "color6": "#ac857a",
+        "color7": "#c4c2c5",
+        "color8": "#655a6e",
+        "color9": "#4b385b",
+        "color10": "#314568",
+        "color11": "#585053",
+        "color12": "#56496f",
+        "color13": "#664f79",
+        "color14": "#ac857a",
+        "color15": "#c4c2c5"
     }
 }
