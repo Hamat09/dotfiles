@@ -34,7 +34,7 @@ window#waybar {
 #workspaces button.active {
     color: #%%background%%;
     background: #%%color4.hex%%;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 #workspaces button.empty {
     color: #%%color7.hex%%;
@@ -50,13 +50,13 @@ window#waybar {
 
 button:hover {
     background: transparent;
-    border-radius: 0px;
+    border-radius: 5px;
     border-color: transparent;
 }
 
 tooltip {
   border: 2px solid #%%color6.hex%%;
-  border-radius: 8px;
+  border-radius: 5px;
   color: #%%color5.hex%%;
   background-color: alpha(#%%background.hex%%, 0.7);
 }
@@ -129,13 +129,13 @@ tooltip label {
 
 #tray menu  {
     border: 2px solid #%%color7.hex%%;
-    border-radius: 8px;
+    border-radius: 5px;
     color: #%%color5.hex%%; /* Change text color in menus */
     background: alpha(#%%background%%, 0.7); /* Change background of menu items */
 }
 
 #tray menu :hover {
-    border-radius: 0px;
+    border-radius: 5px;
     color: #%%background%%; 
     background-color: #%%color4.hex%%; /* Hover effect for menu items */
 }
