@@ -1,0 +1,35 @@
+#!/bin/bash
+CURRENT=$(hyprctl getoption decoration:active_opacity | awk 'NR==1 {print $2}')
+if [ "$CURRENT" = "0.900000" ]; then
+
+  hyprctl eval 'hl.config( {animations = { enabled = true }} )'
+  hyprctl eval 'hl.config( {general = { border_size = 2, gaps_in = 20, gaps_out = 30}} )'
+  hyprctl eval 'hl.config( {decoration = { active_opacity = 1.0 }} )'
+  hyprctl eval 'hl.config( {decoration = { inactive_opacity = 1.0 }} )'
+  hyprctl eval 'hl.config( {decoration = { shadow = { enabled = true }}} )'
+  hyprctl eval 'hl.config( {decoration = { rounding = 0, rounding_power = 0 }} )'
+  sed -i 's/"margin-top": 10/"margin-top": 0/' /home/hamato/.config/waybar/config.jsonc
+  sed -i 's/"margin-left": 20/"margin-left": 0/' /home/hamato/.config/waybar/config.jsonc
+  sed -i 's/"margin-right": 20/"margin-right": 0/' /home/hamato/.config/waybar/config.jsonc
+  sed -i 's/, 0.7)/, 1.0)/' /home/hamato/.config/waybar/style.css
+  sed -i 's/border: 2px/border: 2px/' /home/hamato/.config/waybar/style.css
+  sed -i 's/border-radius: 5px/border-radius: 0px/' /home/hamato/.config/waybar/style.css
+  pkill -SIGUSR2 waybar
+
+else
+
+  hyprctl eval 'hl.config( {animations = { enabled = true }} )'
+  hyprctl eval 'hl.config( {general = { border_size = 2, gaps_in = 10, gaps_out = 20 }} )'
+  hyprctl eval 'hl.config( {decoration = { active_opacity = 0.9 }} )'
+  hyprctl eval 'hl.config( {decoration = { inactive_opacity = 0.7 }} )'
+  hyprctl eval 'hl.config( {decoration = { shadow = { enabled = false }}} )'
+  hyprctl eval 'hl.config( {decoration = { rounding = 5, rounding_power = 10 }} )'
+  sed -i 's/"margin-top": 0/"margin-top": 10/' /home/hamato/.config/waybar/config.jsonc
+  sed -i 's/"margin-left": 0/"margin-left": 20/' /home/hamato/.config/waybar/config.jsonc
+  sed -i 's/"margin-right": 0/"margin-right": 20/' /home/hamato/.config/waybar/config.jsonc
+  sed -i 's/, 1.0)/, 0.7)/' /home/hamato/.config/waybar/style.css
+  sed -i 's/border: 0px/border: 2px/' /home/hamato/.config/waybar/style.css
+  sed -i 's/border-radius: 0px/border-radius: 5px/' /home/hamato/.config/waybar/style.css
+  pkill -SIGUSR2 waybar
+
+fi
