@@ -12,9 +12,10 @@ if [ "$CURRENT" = "0.900000" ]; then
   sed -i 's/"margin-left": 20/"margin-left": 0/' /home/hamato/.config/waybar/config.jsonc
   sed -i 's/"margin-right": 20/"margin-right": 0/' /home/hamato/.config/waybar/config.jsonc
   sed -i 's/, 0.7)/, 1.0)/' /home/hamato/.config/waybar/style.css
-  sed -i 's/border: 2px/border: 2px/' /home/hamato/.config/waybar/style.css
+  sed -i 's/border: 2px/border: 0px/' /home/hamato/.config/waybar/style.css
   sed -i 's/border-radius: 5px/border-radius: 0px/' /home/hamato/.config/waybar/style.css
   sed -i -e 's/B3/FF/' -e 's/border-radius=5/border-radius=0/' /home/hamato/.config/mako/config
+  sed -i -e 's/B3/FF/' -e 's/border-radius:      5px/border-radius:      0px/' /home/hamato/.config/rofi/config.rasi
   pkill -SIGUSR2 waybar
   pkill mako && mako &
 
@@ -33,6 +34,7 @@ else
   sed -i 's/border: 0px/border: 2px/' /home/hamato/.config/waybar/style.css
   sed -i 's/border-radius: 0px/border-radius: 5px/' /home/hamato/.config/waybar/style.css
   sed -i -e 's/FF/B3/' -e 's/border-radius=0/border-radius=5/' /home/hamato/.config/mako/config
+  sed -i -e 's/FF/B3/' -e 's/border-radius:      0px/border-radius:      5px/' /home/hamato/.config/rofi/config.rasi
   pkill -SIGUSR2 waybar
   pkill mako && mako &
 
