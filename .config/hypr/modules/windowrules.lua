@@ -49,6 +49,7 @@ hl.window_rule({
 	name = "pywal",
 	float = true,
 	size = { 800, 300 },
+	dim_around = true,
 	match = { class = "kitty", title = "pywal_tui_win" },
 })
 
@@ -87,6 +88,7 @@ hl.layer_rule({
 	match = { namespace = "rofi" },
 	blur = true,
 	blur_popups = true,
+	dim_around = true,
 	ignore_alpha = 0.5,
 })
 
