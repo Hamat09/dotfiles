@@ -1,28 +1,28 @@
 [Colors:Window]
 ForegroundNormal=#e0def4
-BackgroundNormal=#191724
+BackgroundNormal=#232136
 DecorationHover=#eb6f92
 
 [Colors:Button]
 ForeGroundNormal=#e0def4
 ForegroundActive=#e0def4
-BackgroundNormal=#191724
+BackgroundNormal=#232136
 
 [Colors:Selection]
-ForegroundNormal=#191724
+ForegroundNormal=#232136
 BackgroundNormal=#eb6f92
 
 [Colors:Tooltip]
 ForegroundNormal=#e0def4
 ForegroundInactive=#e0def4
-BackgroundNormal=#191724
+BackgroundNormal=#232136
 
 [Colors:View]
-BackgroundNormal=#191724
+BackgroundNormal=#232136
 ForegroundNormal=#e0def4
 ForegroundLink=#e0def4
-ForegroundVisited=#31748f
-ForegroundInactive=#31748f
+ForegroundVisited=#3e8fb0
+ForegroundInactive=#3e8fb0
 DecorationHover=#eb6f92
 
 [Icons]

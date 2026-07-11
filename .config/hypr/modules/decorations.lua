@@ -16,6 +16,7 @@ hl.config({
 
 		col = {
 			active_border = colors.color6,
+			inactive_border = colors.background,
 		},
 		resize_on_border = false,
 		allow_tearing = false,

@@ -95,20 +95,20 @@
       "on-scroll": 1,
       "on-click-right": "mode",
       "format": {
-        "months": "<span color=\"#ffffff\"><b>{}</b></span>",
-        "weekdays": "<span color=\"#9b954b\"><b>{}</b></span>",
-        "today": "<span color=\"#b66a5a\"><b>{}</b></span>"
+        "months": "<span color=\"#B5C99B\"><b>{}</b></span>",
+        "weekdays": "<span color=\"#acd189\"><b>{}</b></span>",
+        "today": "<span color=\"#a09858\"><b>{}</b></span>"
       }
     },
     },
 
     "cpu": {
-        "format": "<span color=\"#9b954b\">CPU</span> | <span color=\"#b96579\">{usage}%</span>",
+        "format": "<span color=\"#acd189\">CPU</span> | <span color=\"#cca750\">{usage}%</span>",
         "tooltip": true ,
         "on-click": "/home/hamato/scripts/btop.sh"
     },
     "memory": {
-        "format": "<span color=\"#9b954b\">RAM</span> | <span color=\"#b96579\">{used} GB</span>"
+        "format": "<span color=\"#acd189\">RAM</span> | <span color=\"#cca750\">{used} GB</span>"
     },
     "battery": {
         "bat": "BAT0",
@@ -117,16 +117,16 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "<span color=\"#9b954b\">DISCHARGING</span> | <span color=\"#b96579\">{capacity}%</span>",
-        "format-full": "<span color=\"#9b954b\">CHARGED</span>",
-        "format-charging": "<span color=\"#9b954b\">CHARGING</span> | <span color=\"#b96579\">{capacity}%</span>"
+        "format": "<span color=\"#acd189\">DISCHARGING</span> | <span color=\"#cca750\">{capacity}%</span>",
+        "format-full": "<span color=\"#acd189\">CHARGED</span>",
+        "format-charging": "<span color=\"#acd189\">CHARGING</span> | <span color=\"#cca750\">{capacity}%</span>"
   },
     "network": {
         "tooltip": true ,
-        "format-wifi": "<span color=\"#9b954b\">{essid}</span>",
-        "format-ethernet": "<span color=\"#9b954b\">ETHERNET</span>",
-        "tooltip-format-wifi": "<span color=\"#9b954b\">Network:</span> <big><b>{essid}</b></big>\n<span color=\"#9b954b\">Signal strength:</span> <b>{signaldBm}dBm ({signalStrength}%)</b>\n<span color=\"#9b954b\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#9b954b\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#9b954b\">Interface:</span> <b>{ifname}</b>\n<span color=\"#9b954b\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#9b954b\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#9b954b\">Netmask:</span> <b>{netmask}</b>",
-        "tooltip-format-ethernet": "<span color=\"#9b954b\">Network:</span> <big><b>Ethernet</b></big>\n<span color=\"#9b954b\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#9b954b\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#9b954b\">Interface:</span> <b>{ifname}</b>\n<span color=\"#9b954b\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#9b954b\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#9b954b\">Netmask:</span> <b>{netmask}</b>",
+        "format-wifi": "<span color=\"#acd189\">{essid}</span>",
+        "format-ethernet": "<span color=\"#acd189\">ETHERNET</span>",
+        "tooltip-format-wifi": "<span color=\"#acd189\">Network:</span> <big><b>{essid}</b></big>\n<span color=\"#acd189\">Signal strength:</span> <b>{signaldBm}dBm ({signalStrength}%)</b>\n<span color=\"#acd189\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#acd189\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#acd189\">Interface:</span> <b>{ifname}</b>\n<span color=\"#acd189\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#acd189\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#acd189\">Netmask:</span> <b>{netmask}</b>",
+        "tooltip-format-ethernet": "<span color=\"#acd189\">Network:</span> <big><b>Ethernet</b></big>\n<span color=\"#acd189\">Speed:</span> <span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>\n<span color=\"#acd189\">Frequency:</span> <b>{frequency}MHz</b>\n<span color=\"#acd189\">Interface:</span> <b>{ifname}</b>\n<span color=\"#acd189\">IP:</span> <b>{ipaddr}/{cidr}</b>\n<span color=\"#acd189\">Gateway:</span> <b>{gwaddr}</b>\n<span color=\"#acd189\">Netmask:</span> <b>{netmask}</b>",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "DISCONNECTED",
         "tooltip-format-disconnected": "NO INTERNET",
@@ -137,53 +137,53 @@
         "format" : "▊",
     },
     "custom/sep1": {
-        "format" : "<span color=\"#b66a5a\"> █</span>",
+        "format" : "<span color=\"#a09858\"> █</span>",
     },
     "custom/sep2": {
-        "format" : "<span color=\"#9b954b\"> █</span>",
+        "format" : "<span color=\"#acd189\"> █</span>",
     },
     "custom/sep3": {
-        "format" : "<span color=\"#afa058\"> █</span>",
+        "format" : "<span color=\"#e1ffa2\"> █</span>",
     },
     "custom/sep4": {
-        "format" : "<span color=\"#6583c1\"> █</span>",
+        "format" : "<span color=\"#429270\"> █</span>",
     },
     "custom/sep5": {
-        "format" : "<span color=\"#b96579\"> █</span>",
+        "format" : "<span color=\"#cca750\"> █</span>",
     },
     "custom/sep6": {
-        "format" : "<span color=\"#4b919b\"> █</span>",
+        "format" : "<span color=\"#a1f1a2\"> █</span>",
     },
     "custom/sep7": {
-        "format" : "<span color=\"#ffffff\"> █</span>",
+        "format" : "<span color=\"#B5C99B\"> █</span>",
     },
     "custom/sep8": {
-        "format" : "<span color=\"#9e9e9e\"> █</span>",
+        "format" : "<span color=\"#676761\"> █</span>",
     },
     "custom/sep9": {
-        "format" : "<span color=\"#e38c77\"> █</span>",
+        "format" : "<span color=\"#b8ae5c\"> █</span>",
     },
     "custom/sep10": {
-        "format" : "<span color=\"#bbb354\"> █</span>",
+        "format" : "<span color=\"#bbeb8c\"> █</span>",
     },
     "custom/sep11": {
-        "format" : "<span color=\"#c4b56b\"> █</span>",
+        "format" : "<span color=\"#deff8b\"> █</span>",
     },
     "custom/sep12": {
-        "format" : "<span color=\"#87a6f5\"> █</span>",
+        "format" : "<span color=\"#46ab81\"> █</span>",
     },
     "custom/sep13": {
-        "format" : "<span color=\"#e7859e\"> █</span>",
+        "format" : "<span color=\"#ebbb44\"> █</span>",
     },
     "custom/sep14": {
-        "format" : "<span color=\"#54aebb\"> █</span>",
+        "format" : "<span color=\"#a9ffab\"> █</span>",
     },
     "custom/sep15": {
-        "format" : "<span color=\"#ffffff\"> █</span>",
+        "format" : "<span color=\"#f2f7ed\"> █</span>",
     },
 
     "pulseaudio": {
-    "format": "<span color=\"#9b954b\">VOL</span> | <span color=\"#b96579\">{volume}%</span>",
+    "format": "<span color=\"#acd189\">VOL</span> | <span color=\"#cca750\">{volume}%</span>",
     "format-bluetooth": "{volume}% ",
     "format-muted": "MUTED",
     "format-icons": {
