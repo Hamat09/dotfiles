@@ -16,6 +16,7 @@ if [ "$CURRENT" = "0.900000" ]; then
   sed -i 's/border-radius: 5px/border-radius: 0px/' /home/hamato/.config/waybar/style.css
   sed -i -e 's/B3/FF/' -e 's/border-radius=5/border-radius=0/' /home/hamato/.config/mako/config
   sed -i -e 's/B3/FF/' -e 's/border-radius:      5px/border-radius:      0px/' /home/hamato/.config/rofi/config.rasi
+  sed -i -e '29s/7/10/' -e '30s/margin: 5px 0px 5px 5px/margin: 0px 0px 0px 0px/' /home/hamato/.config/waybar/style.css
   pkill -SIGUSR2 waybar
   pkill mako && mako &
 
@@ -35,6 +36,7 @@ else
   sed -i 's/border-radius: 0px/border-radius: 5px/' /home/hamato/.config/waybar/style.css
   sed -i -e 's/FF/B3/' -e 's/border-radius=0/border-radius=5/' /home/hamato/.config/mako/config
   sed -i -e 's/FF/B3/' -e 's/border-radius:      0px/border-radius:      5px/' /home/hamato/.config/rofi/config.rasi
+  sed -i -e '29s/10/7/' -e '30s/margin: 0px 0px 0px 0px/margin: 5px 0px 5px 5px/' /home/hamato/.config/waybar/style.css
   pkill -SIGUSR2 waybar
   pkill mako && mako &
 
