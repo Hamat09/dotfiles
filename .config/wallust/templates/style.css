@@ -128,7 +128,7 @@ tooltip label {
 }
 
 #tray menu  {
-    border: 0px solid {{color7}};
+    border: 2px solid {{color7}};
     border-radius: 5px;
     color: {{color7}}; /* Change text color in menus */
     background: alpha({{background}}, 0.7); /* Change background of menu items */
