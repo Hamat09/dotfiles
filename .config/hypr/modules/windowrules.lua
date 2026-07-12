@@ -112,3 +112,8 @@ hl.layer_rule({
 	blur_popups = true,
 	ignore_alpha = 0.5,
 })
+
+hl.workspace_rule({
+	workspace = "w[tv1]",
+	no_border = true,
+})

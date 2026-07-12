@@ -19,22 +19,22 @@
 }
 
 window#waybar {
-    background-color: alpha({background.hex}, 0.7);
-    border: 2px solid {color6};
-    border-radius: 5px;
+    background-color: alpha({background.hex}, 1.0);
+    border: 0px solid {color6};
+    border-radius: 0px;
     color: @fg;
 }
 
 #workspaces button {
-    padding: 0 7px;
-    margin: 5px 0px 5px 5px;
+    padding: 0 10px;
+    margin: 0px 0px 0px 0px;
     color: {color7.hex};
     background: transparent;
 }
 #workspaces button.active {
     color: {background.hex};
     background: {color4.hex};
-    border-radius: 5px;
+    border-radius: 0px;
 }
 #workspaces button.empty {
     color: {color7.hex};
@@ -50,15 +50,15 @@ window#waybar {
 
 button:hover {
     background: transparent;
-    border-radius: 5px;
+    border-radius: 0px;
     border-color: transparent;
 }
 
 tooltip {
-  border: 2px solid {color6};
-  border-radius: 5px;
+  border: 0px solid {color6};
+  border-radius: 0px;
   color: {color7};
-  background-color: alpha({background}, 0.7);
+  background-color: alpha({background}, 1.0);
 }
 
 tooltip label {
@@ -128,14 +128,14 @@ tooltip label {
 }
 
 #tray menu  {
-    border: 2px solid {color7.hex};
-    border-radius: 5px;
+    border: 0px solid {color7.hex};
+    border-radius: 0px;
     color: {color7.hex}; /* Change text color in menus */
-    background: alpha({background.hex}, 0.7); /* Change background of menu items */
+    background: alpha({background.hex}, 1.0); /* Change background of menu items */
 }
 
 #tray menu :hover {
-    border-radius: 5px;
+    border-radius: 0px;
     color: {background.hex}; 
     background-color: {color1.hex}; /* Hover effect for menu items */
 }

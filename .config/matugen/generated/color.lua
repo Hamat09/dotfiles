@@ -1,22 +1,24 @@
-return {
+local colors = {
 
-	foreground = "#76905d",
-	background = "#0d0e0b",
+	foreground = "#be9a8e",
+	background = "#1f2331",
 
-	color0 = "#0d0e0b",
-	color1 = "#1c2017",
-	color2 = "#2b3323",
-	color3 = "#3a452f",
-	color4 = "#49583a",
-	color5 = "#586b46",
-	color6 = "#b1d18a",
-	color7 = "#76905d",
-	color8 = "#768f5d",
-	color9 = "#4b6037",
-	color10 = "#344226",
-	color11 = "#28311e",
-	color12 = "#222719",
-	color13 = "#1e2117",
-	color14 = "#1b1c15",
-	color15 = "#181913",
+	color0 = "#1f2331",
+	color1 = "#36343e",
+	color2 = "#4c454c",
+	color3 = "#635659",
+	color4 = "#7a6766",
+	color5 = "#917873",
+	color6 = "#1f2331",
+	color7 = "#be9a8e",
+	color8 = "#be9a8d",
+	color9 = "#5a3c58",
+	color10 = "#2d2840",
+	color11 = "#1f2331",
+	color12 = "#1f2331",
+	color13 = "#1f2331",
+	color14 = "#1f2331",
+	color15 = "#1f2331",
 }
+
+return colors

@@ -1,12 +1,12 @@
-background-color=#1e1e2eB3
-text-color=#cdd6f4
+background-color=#041010FF
+text-color=#b1d2d3
 padding=12
 margin=35
 font=JetBrainsMono Nerd Font 12
 icons=1
 
 border-size=2
-border-color=#94e2d5
-border-radius=5
+border-color=#83a2a6
+border-radius=0
 
 default-timeout=5000
