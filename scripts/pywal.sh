@@ -313,7 +313,14 @@ elif [[ $TOOL == "IRIS" ]]; then
   WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | fzf --footer="CHOOSE WALLPAPER" --preview='chafa -s ${FZF_PREVIEW_COLUMNS}x${FZF_PREVIEW_LINES} {}')
   echo "$WALLPAPER"
 
-  iris $WALLPAPER
+  echo "Choose mode [light/dark]:"
+  MODE=$(printf "dark\nlight" | fzf --footer="CHOOSE MODE")
+
+  if [[ $MODE == "dark" ]]; then
+    iris $WALLPAPER --dark 1
+  else
+    iris $WALLPAPER --dark 0
+  fi
 
   awww img $WALLPAPER --transition-type none
   ln -nfs "/home/hamato/.cache/iris/style.css" "/home/hamato/.config/waybar/style.css"

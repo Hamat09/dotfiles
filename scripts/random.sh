@@ -270,7 +270,50 @@ elif [[ $TOOL == "WALLUST" ]]; then
   pywalfox update
   pkill mako && mako &
   pkill -SIGUSR2 waybar
-else
+
+elif [[ $TOOL == "IRIS" ]]; then
+
+  WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | shuf -n 1)
+
+  MODE=$(printf "dark\nlight" | shuf -n 1)
+
+  if [[ $MODE == "dark" ]]; then
+    iris $WALLPAPER --dark 1
+  else
+    iris $WALLPAPER --dark 0
+  fi
+  awww img $WALLPAPER --transition-type none
+  ln -nfs "/home/hamato/.cache/iris/style.css" "/home/hamato/.config/waybar/style.css"
+  ln -nfs "/home/hamato/.cache/iris/colors-kitty.conf" "/home/hamato/.config/kitty/kitty-colors.conf"
+  ln -nfs "/home/hamato/.cache/iris/pywalfox-colors.json" "/home/hamato/.cache/wal/colors.json"
+  ln -nfs "/home/hamato/.cache/iris/pywalfox-colors.json" "/home/hamato/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/.cache/wal/colors.json"
+  ln -nfs "/home/hamato/.cache/iris/pywal.kvconfig" "/home/hamato/.config/Kvantum/pywal/pywal.kvconfig"
+  ln -nfs "/home/hamato/.cache/iris/pywal.svg" "/home/hamato/.config/Kvantum/pywal/pywal.svg"
+  ln -nfs "/home/hamato/.cache/iris/gtk-colors.css" "/home/hamato/.config/gtk-3.0/gtk.css"
+  ln -nfs "/home/hamato/.cache/iris/gtk-colors.css" "/home/hamato/.config/gtk-4.0/gtk.css"
+  ln -nfs "/home/hamato/.cache/iris/qtct-colors.conf" "/home/hamato/.config/qt5ct/colors/pywal.conf"
+  ln -nfs "/home/hamato/.cache/iris/qtct-colors.conf" "/home/hamato/.config/qt6ct/colors/pywal.conf"
+  ln -nfs "/home/hamato/.cache/iris/rofi-config.rasi" "/home/hamato/.config/rofi/config.rasi"
+  ln -nfs "/home/hamato/.cache/iris/btop.theme" "/home/hamato/.config/btop/themes/matugen.theme"
+  ln -nfs "/home/hamato/.cache/iris/colors-zathura" "/home/hamato/.config/zathura/zathurarc"
+  ln -nfs "/home/hamato/.cache/iris/color.lua" "/home/hamato/.config/hypr/modules/color.lua"
+  ln -nfs "/home/hamato/.cache/iris/zathura-colors" "/home/hamato/.config/zathura/zathurarc"
+  ln -nfs "/home/hamato/.cache/iris/colors-mako" "/home/hamato/.config/mako/config"
+  ln -nfs "/home/hamato/.cache/iris/cava-colors.ini" "/home/hamato/.config/cava/themes/cava-colors.ini"
+  cp -r "/home/hamato/.cache/iris/kdeglobals" "/home/hamato/.config/kdeglobals"
+  ln -nfs "/home/hamato/.cache/iris/config.jsonc" "/home/hamato/.config/waybar/config.jsonc"
+  cp -r "/home/hamato/.cache/iris/vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
+  cp -r "/home/hamato/.cache/iris/easyeffectsrc" "/home/hamato/.config/easyeffectsrc"
+  ln -nfs "/home/hamato/.cache/iris/colors.vim" "/home/hamato/.cache/wal/colors-wal.vim"
+
+  pkill -USR1 cava
+  pkill -USR2 btop
+  pkill -USR1 kitty
+  pywalfox update
+  pkill mako && mako &
+  pkill -SIGUSR2 waybar
+  gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3"
+
   exit
 
 fi
