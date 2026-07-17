@@ -1,29 +1,29 @@
 {
-    "checksum": "e40133ea99af7abde94948315584c09f",
-    "wallpaper": "/home/hamato/Wallpapers/jotaro_dio.png",
+    "checksum": "2c09600dcc2658ddb1d0ca802367c27f",
+    "wallpaper": "/home/hamato/Wallpapers/mahoraga_white_blue.png",
     "alpha": "100",
 
     "special": {
-        "background": "#0e1620",
-        "foreground": "#c2c4c7",
-        "cursor": "#c2c4c7"
+        "background": "#1a1919",
+        "foreground": "#c5c5c5",
+        "cursor": "#c5c5c5"
     },
     "colors": {
-        "color0": "#0e1620",
-        "color1": "#8f827c",
-        "color2": "#29698d",
-        "color3": "#279aa0",
-        "color4": "#56ada8",
-        "color5": "#a0ad9f",
-        "color6": "#deae99",
-        "color7": "#c2c4c7",
-        "color8": "#5d6572",
-        "color9": "#8f827c",
-        "color10": "#29698d",
-        "color11": "#279aa0",
-        "color12": "#56ada8",
-        "color13": "#a0ad9f",
-        "color14": "#deae99",
-        "color15": "#c2c4c7"
+        "color0": "#1a1919",
+        "color1": "#929887",
+        "color2": "#8aa697",
+        "color3": "#b1af96",
+        "color4": "#c5ba9d",
+        "color5": "#c7bc9f",
+        "color6": "#b2c190",
+        "color7": "#c5c5c5",
+        "color8": "#745d5d",
+        "color9": "#929887",
+        "color10": "#8aa697",
+        "color11": "#b1af96",
+        "color12": "#c5ba9d",
+        "color13": "#c7bc9f",
+        "color14": "#b2c190",
+        "color15": "#c5c5c5"
     }
 }

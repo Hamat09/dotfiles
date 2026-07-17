@@ -1,22 +1,29 @@
 {
-  "wallpaper": "{image}",
-  "alpha": "100",
-  "colors": {
-    "color0": "#1f2331",
-    "color1": "#36343e",
-    "color2": "#4c454c",
-    "color3": "#635659",
-    "color4": "#7a6766",
-    "color5": "#917873",
-    "color6": "#a78981",
-    "color7": "#be9a8e",
-    "color8": "#1f2331",
-    "color9": "#5a3c58",
-    "color10": "#2d2840",
-    "color11": "#1f2331",
-    "color12": "#1f2331",
-    "color13": "#1f2331",
-    "color14": "#1f2331",
-    "color15": "#1f2331"
-  }
+    "checksum": "4c07f74d3e181b51bee5bc6eb7107bdc",
+    "wallpaper": "/home/hamato/Wallpapers/pink-mecha.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#21242e",
+        "foreground": "#c7c8ca",
+        "cursor": "#c7c8ca"
+    },
+    "colors": {
+        "color0": "#21242e",
+        "color1": "#93719a",
+        "color2": "#a06d98",
+        "color3": "#887ca2",
+        "color4": "#958bad",
+        "color5": "#a294b6",
+        "color6": "#ac9ec1",
+        "color7": "#c7c8ca",
+        "color8": "#666d7d",
+        "color9": "#93719a",
+        "color10": "#a06d98",
+        "color11": "#887ca2",
+        "color12": "#958bad",
+        "color13": "#a294b6",
+        "color14": "#ac9ec1",
+        "color15": "#c7c8ca"
+    }
 }

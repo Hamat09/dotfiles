@@ -32,6 +32,9 @@ cp -r /home/hamato/.config/zathura /home/hamato/dotfiles/.config
 cp -r /home/hamato/.config/btop ~/dotfiles/.config/
 cp -r /home/hamato/.config/cava ~/dotfiles/.config
 cp -r /home/hamato/.config/aether /home/hamato/dotfiles/.config 
+cp -r /home/hamato/.config/iris /home/hamato/dotfiles/.config 
+
+
 
 cd ~/dotfiles
 git add .
