@@ -116,4 +116,5 @@ hl.layer_rule({
 hl.workspace_rule({
 	workspace = "w[tv1]",
 	no_border = true,
+	no_shadow = true,
 })

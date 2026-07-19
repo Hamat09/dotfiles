@@ -275,7 +275,7 @@ elif [[ $TOOL == "IRIS" ]]; then
 
   WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | shuf -n 1)
 
-  MODE=$(printf "dark\nlight" | shuf -n 1)
+  MODE=$(shuf -e "dark" "light" -n 1)
 
   if [[ $MODE == "dark" ]]; then
     iris $WALLPAPER --dark 1
