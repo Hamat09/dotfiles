@@ -1,29 +1,22 @@
 {
-    "checksum": "4c07f74d3e181b51bee5bc6eb7107bdc",
-    "wallpaper": "/home/hamato/Wallpapers/pink-mecha.png",
-    "alpha": "100",
-
-    "special": {
-        "background": "#21242e",
-        "foreground": "#c7c8ca",
-        "cursor": "#c7c8ca"
-    },
-    "colors": {
-        "color0": "#21242e",
-        "color1": "#93719a",
-        "color2": "#a06d98",
-        "color3": "#887ca2",
-        "color4": "#958bad",
-        "color5": "#a294b6",
-        "color6": "#ac9ec1",
-        "color7": "#c7c8ca",
-        "color8": "#666d7d",
-        "color9": "#93719a",
-        "color10": "#a06d98",
-        "color11": "#887ca2",
-        "color12": "#958bad",
-        "color13": "#a294b6",
-        "color14": "#ac9ec1",
-        "color15": "#c7c8ca"
-    }
+  "wallpaper": "/home/hamato/Wallpapers/fern_green_nature.png",
+  "alpha": "100",
+  "colors": {
+    "color0": "#1a1c16",
+    "color1": "",
+    "color2": "",
+    "color3": "#b1d18a",
+    "color4": "",
+    "color5": "#bfcbad",
+    "color6": "#b1d18a",
+    "color7": "#33362e",
+    "color8": "#1a1c16",
+    "color9": "#b1d18a",
+    "color10": "#b1d18a",
+    "color11": "",
+    "color12": "",
+    "color13": "#bfcbad",
+    "color14": "",
+    "color15": "#e2e3d8"
+  }
 }

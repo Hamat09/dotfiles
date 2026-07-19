@@ -55,8 +55,8 @@ configuration {
     var-message-bg:       {bg}FF;
     
     /* Text Colors */
-    var-text-def:         {color7};
-    var-text-dim:         {color7};
+    var-text-def:         {fg};
+    var-text-dim:         {fg};
     var-text-urgent:      #ffffff;
     var-text-active:      {bg};
     

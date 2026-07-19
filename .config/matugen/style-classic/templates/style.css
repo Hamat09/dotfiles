@@ -37,7 +37,7 @@ window#waybar {
     border-radius: 0px;
 }
 #workspaces button.empty {
-    color: {{colors.surface_container_low.default.hex}};
+    color: {{colors.primary.default.hex}};
 }
 #workspaces button.empty.active {
     color: {{colors.surface_container_low.default.hex}};

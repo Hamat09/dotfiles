@@ -33,7 +33,7 @@ window#waybar {
 }
 #workspaces button.active {
     color: {bg};
-    background: {color1};
+    background: {color4};
     border-radius: 0px;
 }
 #workspaces button.empty {
@@ -41,7 +41,7 @@ window#waybar {
 }
 #workspaces button.empty.active {
     color: {bg};
-    background: {color1};
+    background: {color4};
 }
 
 #workspaces button.urgent {
