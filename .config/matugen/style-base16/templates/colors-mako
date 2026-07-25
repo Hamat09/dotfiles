@@ -1,4 +1,4 @@
-background-color={{base16.base00.default.hex}}B3
+background-color={{base16.base00.default.hex}}FF
 text-color={{base16.base07.default.hex}}
 padding=12
 margin=35
@@ -7,6 +7,6 @@ icons=1
 
 border-size=2
 border-color={{base16.base0c.default.hex}}
-border-radius=5
+border-radius=0
 
 default-timeout=5000

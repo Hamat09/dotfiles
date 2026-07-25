@@ -5,9 +5,9 @@ local colors = require("modules.color")
 
 hl.config({
 	general = {
-		gaps_in = 10,
-		gaps_out = 20,
-		border_size = 0,
+		gaps_in = 20,
+		gaps_out = 30,
+		border_size = 2,
 
 		snap = {
 			enabled = true,
@@ -24,18 +24,18 @@ hl.config({
 	},
 
 	decoration = {
-		rounding = 5,
-		rounding_power = 10,
-		active_opacity = 0.9,
-		inactive_opacity = 0.7,
+		rounding = 0,
+		rounding_power = 0,
+		active_opacity = 1.0,
+		inactive_opacity = 1.0,
 
 		shadow = {
 			enabled = true,
-			range = 40,
-			render_power = 20,
+			range = 3,
+			render_power = 3,
 			color = "#000000",
-			sharp = false,
-			offset = { 0, 0 },
+			sharp = true,
+			offset = { 12, 12 },
 		},
 
 		glow = {
