@@ -1,1 +1,1 @@
-/home/hamato/.cache/iris/color.lua
+/home/hamato/.cache/wal/color.lua

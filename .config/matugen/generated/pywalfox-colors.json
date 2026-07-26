@@ -1,22 +1,29 @@
 {
-  "wallpaper": "/home/hamato/Wallpapers/fern_green_nature.png",
-  "alpha": "100",
-  "colors": {
-    "color0": "#1a1c16",
-    "color1": "",
-    "color2": "",
-    "color3": "#b1d18a",
-    "color4": "",
-    "color5": "#bfcbad",
-    "color6": "#b1d18a",
-    "color7": "#33362e",
-    "color8": "#1a1c16",
-    "color9": "#b1d18a",
-    "color10": "#b1d18a",
-    "color11": "",
-    "color12": "",
-    "color13": "#bfcbad",
-    "color14": "",
-    "color15": "#e2e3d8"
-  }
+    "checksum": "cdfb6db49b8c6445c695047b2db4d400",
+    "wallpaper": "/home/hamato/Wallpapers/fern_green_nature.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d1207",
+        "foreground": "#c2c3c1",
+        "cursor": "#c2c3c1"
+    },
+    "colors": {
+        "color0": "#0d1207",
+        "color1": "#49452b",
+        "color2": "#40532f",
+        "color3": "#546b3d",
+        "color4": "#6b8452",
+        "color5": "#7e9963",
+        "color6": "#95ad7b",
+        "color7": "#c2c3c1",
+        "color8": "#616a55",
+        "color9": "#49452b",
+        "color10": "#40532f",
+        "color11": "#546b3d",
+        "color12": "#6b8452",
+        "color13": "#7e9963",
+        "color14": "#95ad7b",
+        "color15": "#c2c3c1"
+    }
 }

@@ -48,11 +48,11 @@ configuration {
        ===================================================================== */
     
     /* Backgrounds */
-    var-win-bg:           #1a1c16FF;
-    var-input-bg:         #1a1c16FF;
+    var-win-bg:           #1a1c16B3;
+    var-input-bg:         #1a1c16B3;
     var-urgent-bg:        #f7768e;
     var-active-bg:        #b1d18a;
-    var-message-bg:       #1a1c16FF;
+    var-message-bg:       #1a1c16B3;
     
     /* Text Colors */
     var-text-def:         #b1d18a;
@@ -104,7 +104,7 @@ window {
     background-color:   @var-win-bg;
     opacity:            0.7;
     border:             2px;
-    border-radius:      0px;
+    border-radius:      5px;
     padding:            20px;
 }
 
@@ -124,7 +124,7 @@ inputbar {
     children:           [ prompt, entry ];
     spacing:            10px;
     padding:            0px;
-    border-radius:      0px;
+    border-radius:      5px;
     background-color:   transparent;
     text-color:         @var-text-def;
 }
@@ -183,7 +183,7 @@ listview {
 
 element {
     padding:            8px 12px;
-    border-radius:      0px;
+    border-radius:      5px;
     cursor:             pointer;
     /* Reduce spacing between icon and text */
     spacing:            6px;

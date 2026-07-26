@@ -19,22 +19,22 @@
 }
 
 window#waybar {
-    background-color: alpha(#1a1c16, 1.0);
+    background-color: alpha(#1a1c16, 0.7);
     border: 0px solid #b1d18a;
-    border-radius: 0px;
+    border-radius: 5px;
     color: @fg;
 }
 
 #workspaces button {
-    padding: 0 10px;
-    margin: 0px 0px 0px 0px;
+    padding: 0 7px;
+    margin: 5px 0px 5px 5px;
     color: #b1d18a;
     background: transparent;
 }
 #workspaces button.active {
     color: #1a1c16;
     background: #b1d18a;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 #workspaces button.empty {
     color: #b1d18a;
@@ -50,15 +50,15 @@ window#waybar {
 
 button:hover {
     background: transparent;
-    border-radius: 0px;
+    border-radius: 5px;
     border-color: transparent;
 }
 
 tooltip {
   border: 0px solid #b1d18a;
-  border-radius: 0px;
+  border-radius: 5px;
   color: #b1d18a;
-  background-color: alpha(#1a1c16, 1.0);
+  background-color: alpha(#1a1c16, 0.7);
 }
 
 tooltip label {
@@ -130,13 +130,13 @@ tooltip label {
 
 #tray menu  {
     border: 0px solid #b1d18a;
-    border-radius: 0px;
+    border-radius: 5px;
     color: #b1d18a; /* Change text color in menus */
-    background: alpha(#1a1c16, 1.0); /* Change background of menu items */
+    background: alpha(#1a1c16, 0.7); /* Change background of menu items */
 }
 
 #tray menu :hover {
-    border-radius: 0px;
+    border-radius: 5px;
     color: #1a1c16; 
     background-color: #b1d18a; /* Hover effect for menu items */
 }
