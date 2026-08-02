@@ -92,7 +92,7 @@ if [[ $TOOL == "PYWAL" ]]; then
 elif [[ $TOOL == "MATUGEN" ]]; then
 
   echo "Choose your style:"
-  STYLE=$(printf "base16\nclassic\nclassic-background" | fzf --footer="CHOOSE STYLE")
+  STYLE=$(printf "base16\nclassic" | fzf --footer="CHOOSE STYLE")
   echo "$STYLE"
 
   echo "Choose your wallpaper:"
