@@ -4,9 +4,9 @@
     "position": "top", 
     "height": 45, 
     "spacing": 0,
-    "margin-top": 0,
-    "margin-left": 0,
-    "margin-right": 0,
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
 
 
     // Choose the order of the modules
@@ -191,7 +191,7 @@
 
     "pulseaudio": {
     "format": "<span color=\"{{color2}}\">VOL</span> | <span color=\"{{color5}}\">{volume}%</span>",
-    "format-bluetooth": "{volume}% ",
+    "format-bluetooth": "<span color=\"{{color2}}\">HEADSET</span> | <span color=\"{{color5}}\">{volume}%</span>",
     "format-muted": "MUTED",
     "format-icons": {
         "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
