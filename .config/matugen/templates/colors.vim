@@ -15,7 +15,7 @@ let color13 = "{{base16.base0d.default.hex}}"
 let color14 = "{{base16.base0e.default.hex}}"
 let color15 = "{{base16.base0f.default.hex}}"
 
-let background = "{{colors.surface.default.hex}}"
+let background = "{{base16.base00.default.hex}}"
 let foreground = "{{base16.base07.default.hex}}"
 let border = "{{base16.base0c.default.hex}}"
 let cursor = "{{colors.source_color.default.hex}}"

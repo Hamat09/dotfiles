@@ -7,6 +7,6 @@ font=JetBrainsMono Nerd Font 12
 icons=1
 
 border-size=2
-border-radius=5
+border-radius=0
 
 default-timeout=5000

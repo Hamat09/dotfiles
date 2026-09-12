@@ -1,4 +1,4 @@
-background-color={bg}B3
+background-color={bg}FF
 text-color={color7}
 padding=12
 margin=35
@@ -7,6 +7,6 @@ icons=1
 
 border-size=2
 border-color={color6}
-border-radius=5
+border-radius=0
 
 default-timeout=5000

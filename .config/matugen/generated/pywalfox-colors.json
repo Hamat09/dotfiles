@@ -1,22 +1,22 @@
 {
-  "wallpaper": "/home/hamato/Wallpapers/astronaut-nord.png",
+  "wallpaper": "/home/hamato/Wallpapers/cyan_telephone_pole_sky.png",
   "alpha": "100",
   "colors": {
-    "color0": "#181c1f",
+    "color0": "#171d1b",
     "color1": "",
     "color2": "",
-    "color3": "#91cef4",
+    "color3": "#85d6c1",
     "color4": "",
-    "color5": "#b6c9d8",
-    "color6": "#91cef4",
-    "color7": "#313539",
-    "color8": "#181c1f",
-    "color9": "#91cef4",
-    "color10": "#91cef4",
+    "color5": "#b1ccc3",
+    "color6": "#85d6c1",
+    "color7": "#303634",
+    "color8": "#171d1b",
+    "color9": "#85d6c1",
+    "color10": "#85d6c1",
     "color11": "",
     "color12": "",
-    "color13": "#b6c9d8",
+    "color13": "#b1ccc3",
     "color14": "",
-    "color15": "#dfe3e7"
+    "color15": "#dee4e0"
   }
 }
