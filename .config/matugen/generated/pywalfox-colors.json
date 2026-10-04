@@ -1,22 +1,29 @@
 {
-  "wallpaper": "/home/hamato/Wallpapers/cyan_telephone_pole_sky.png",
-  "alpha": "100",
-  "colors": {
-    "color0": "#171d1b",
-    "color1": "",
-    "color2": "",
-    "color3": "#85d6c1",
-    "color4": "",
-    "color5": "#b1ccc3",
-    "color6": "#85d6c1",
-    "color7": "#303634",
-    "color8": "#171d1b",
-    "color9": "#85d6c1",
-    "color10": "#85d6c1",
-    "color11": "",
-    "color12": "",
-    "color13": "#b1ccc3",
-    "color14": "",
-    "color15": "#dee4e0"
-  }
+    "checksum": "16e1167e7f7badce8e2472b19907746c",
+    "wallpaper": "/home/hamato/Wallpapers/palms_gradient_miami_hue.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#3c2338",
+        "foreground": "#cec8cd",
+        "cursor": "#cec8cd"
+    },
+    "colors": {
+        "color0": "#3c2338",
+        "color1": "#9a6898",
+        "color2": "#8e73a4",
+        "color3": "#cd75a1",
+        "color4": "#6487b1",
+        "color5": "#a386aa",
+        "color6": "#dd939b",
+        "color7": "#cec8cd",
+        "color8": "#846a80",
+        "color9": "#9a6898",
+        "color10": "#8e73a4",
+        "color11": "#cd75a1",
+        "color12": "#6487b1",
+        "color13": "#a386aa",
+        "color14": "#dd939b",
+        "color15": "#cec8cd"
+    }
 }

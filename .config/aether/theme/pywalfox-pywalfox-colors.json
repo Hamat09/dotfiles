@@ -1,29 +1,22 @@
 {
-    "checksum": "a96f255ca9477d61470778a5304ea7be",
-    "wallpaper": "/home/hamato/Wallpapers/pink_buildings_sky.png",
-    "alpha": "100",
-
-    "special": {
-        "background": "#f2f2f2",
-        "foreground": "#3c3c3c",
-        "cursor": "#3c3c3c"
-    },
-    "colors": {
-        "color0": "#f2f2f2",
-        "color1": "#aa005e",
-        "color2": "#b80061",
-        "color3": "#d00368",
-        "color4": "#e0186f",
-        "color5": "#dc2070",
-        "color6": "#e12370",
-        "color7": "#3c3c3c",
-        "color8": "#b5b5b5",
-        "color9": "#aa005e",
-        "color10": "#b80061",
-        "color11": "#d00368",
-        "color12": "#e0186f",
-        "color13": "#dc2070",
-        "color14": "#e12370",
-        "color15": "#3c3c3c"
-    }
+  "wallpaper": "{image}",
+  "alpha": "100",
+  "colors": {
+    "color0": "#1c121b",
+    "color1": "#cba17d",
+    "color2": "#abc8a1",
+    "color3": "#c9cc9b",
+    "color4": "#a0adcf",
+    "color5": "#c4aac7",
+    "color6": "#9ccfb2",
+    "color7": "#d8cdb1",
+    "color8": "#1c121b",
+    "color9": "#f2c394",
+    "color10": "#abdb93",
+    "color11": "#d6dc81",
+    "color12": "#c0cdf8",
+    "color13": "#e3c5ea",
+    "color14": "#8ee4b0",
+    "color15": "#eeda9a"
+  }
 }
