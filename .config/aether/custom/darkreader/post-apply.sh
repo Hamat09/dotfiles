@@ -12,7 +12,7 @@ ln -nfs "/home/hamato/.config/aether/theme/pywalfox-pywalfox-colors.json" "/home
 ln -nfs "/home/hamato/.config/aether/theme/qtct5-qtct-colors.conf" "/home/hamato/.config/qt5ct/colors/pywal.conf"
 ln -nfs "/home/hamato/.config/aether/theme/qtct6-qtct-colors.conf" "/home/hamato/.config/qt6ct/colors/pywal.conf"
 ln -nfs "/home/hamato/.config/aether/theme/rofi-rofi-config.rasi" "/home/hamato/.config/rofi/config.rasi"
-cp -r "/home/hamato/.config/aether/theme/vpn-status-vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
+ln -nfs "/home/hamato/.config/aether/theme/vpn-status-vpn-status.sh" "/home/hamato/scripts/vpn-status.sh"
 ln -nfs "/home/hamato/.config/aether/theme/waybar-config-config.jsonc" "/home/hamato/.config/waybar/config.jsonc"
 ln -nfs "/home/hamato/.config/aether/theme/waybar-style.css" "/home/hamato/.config/waybar/style.css"
 ln -nfs "/home/hamato/.config/aether/theme/zathura-zathura-colors" "/home/hamato/.config/zathura/zathurarc"

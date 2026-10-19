@@ -1,1 +1,1 @@
-/home/hamato/.config/aether/theme/hyprland-color.lua
+/home/hamato/.cache/wal/color.lua
