@@ -48,20 +48,20 @@ configuration {
        ===================================================================== */
     
     /* Backgrounds */
-    var-win-bg:           {{base16.base00.default.hex}}FF;
-    var-input-bg:         {{base16.base00.default.hex}}FF;
+    var-win-bg:           {{colors.surface_container_low.default.hex}}FF;
+    var-input-bg:         {{colors.surface_container_low.default.hex}}FF;
     var-urgent-bg:        #f7768e;
-    var-active-bg:        {{colors.source_color.default.hex}};
-    var-message-bg:       {{base16.base00.default.hex}}FF;
+    var-active-bg:        {{colors.primary.default.hex}};
+    var-message-bg:       {{colors.surface_container_low.default.hex}}FF;
     
     /* Text Colors */
-    var-text-def:         {{base16.base07.default.hex}};
-    var-text-dim:         {{base16.base07.default.hex}};
+    var-text-def:         {{colors.primary.default.hex}};
+    var-text-dim:         {{colors.primary.default.hex}};
     var-text-urgent:      #ffffff;
-    var-text-active:      {{base16.base00.default.hex}};
+    var-text-active:      {{colors.surface_container_low.default.hex}};
     
     /* Borders */
-    var-border:           {{base16.base0c.default.hex}};
+    var-border:           {{colors.primary.default.hex}};
 
 
     /* =====================================================================
@@ -125,7 +125,7 @@ inputbar {
     spacing:            10px;
     padding:            0px;
     border-radius:      0px;
-    background-color:   @var-input-bg;
+    background-color:   transparent;
     text-color:         @var-text-def;
 }
 

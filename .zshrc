@@ -118,7 +118,6 @@ alias h="/home/hamato/scripts/hellwal.sh"
 alias m="matugen --show-colors -q image"
 alias p="/home/hamato/scripts/pywal.sh"
 alias dots="/home/hamato/scripts/dotfiles.sh"
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -161,3 +160,4 @@ _fzf_comprun() {
   esac
 }
 
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
