@@ -1,1 +1,1 @@
-/home/hamato/.config/aether/theme/vpn-status-vpn-status.sh
+/home/hamato/.config/matugen/generated/vpn-status.sh

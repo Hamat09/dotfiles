@@ -1,3 +1,4 @@
 #!/bin/bash
 
-killall waybar && waybar & disown
+killall waybar && waybar &
+disown

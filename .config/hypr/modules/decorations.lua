@@ -4,60 +4,60 @@
 local colors = require("modules.color")
 
 hl.config({
-	general = {
-		gaps_in = 20,
-		gaps_out = 30,
-		border_size = 2,
+  general = {
+    gaps_in = 10,
+    gaps_out = 20,
+    border_size = 2,
 
-		snap = {
-			enabled = true,
-			respect_gaps = true,
-		},
+    snap = {
+      enabled = true,
+      respect_gaps = true,
+    },
 
-		col = {
-			active_border = colors.color6,
-			inactive_border = colors.background,
-		},
-		resize_on_border = false,
-		allow_tearing = false,
-		layout = "dwindle",
-	},
+    col = {
+      active_border = colors.color6,
+      inactive_border = colors.background,
+    },
+    resize_on_border = false,
+    allow_tearing = false,
+    layout = "dwindle",
+  },
 
-	decoration = {
-		rounding = 0,
-		rounding_power = 0,
-		active_opacity = 1.0,
-		inactive_opacity = 1.0,
+  decoration = {
+    rounding = 5,
+    rounding_power = 1.0,
+    active_opacity = 0.9,
+    inactive_opacity = 0.7,
 
-		shadow = {
-			enabled = true,
-			range = 3,
-			render_power = 3,
-			color = "#000000",
-			sharp = true,
-			offset = { 12, 12 },
-		},
+    shadow = {
+      enabled = false,
+      range = 20,
+      render_power = 4,
+      color = "#000000",
+      sharp = false,
+      offset = { 0, 0 },
+    },
 
-		glow = {
-			enabled = false,
-			range = 20,
-			color = "rgba(f6c177aa)",
-			render_power = 3,
-		},
+    glow = {
+      enabled = false,
+      range = 20,
+      color = "rgba(f6c177aa)",
+      render_power = 3,
+    },
 
-		blur = {
-			enabled = true,
-			size = 6,
-			passes = 3,
-			popups = true,
-			popups_ignorealpha = 0.7,
-			vibrancy = 0.1696,
-		},
-	},
+    blur = {
+      enabled = true,
+      size = 6,
+      passes = 3,
+      popups = true,
+      popups_ignorealpha = 0.7,
+      vibrancy = 0.1696,
+    },
+  },
 
-	animations = {
-		enabled = true,
-	},
+  animations = {
+    enabled = true,
+  },
 })
 
 -- Default curves and animations, see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Animations/

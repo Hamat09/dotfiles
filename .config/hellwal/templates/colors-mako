@@ -1,4 +1,4 @@
-background-color=#%% background.hex %%FF
+background-color=#%% background.hex %%B3
 text-color=#%% color6.hex %%
 padding=12
 margin=35
@@ -7,6 +7,6 @@ icons=1
 
 border-size=2
 border-color=#%% color6.hex %%
-border-radius=0
+border-radius=5
 
 default-timeout=5000
