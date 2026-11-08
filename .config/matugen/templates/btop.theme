@@ -13,77 +13,77 @@
 theme[main_bg]=""
 
 # Main text color
-theme[main_fg]="{{colors.on_surface.default.hex}}"
+theme[main_fg]="{{base16.base07.default.hex}}"
 
 # Title color for boxes
-theme[title]="{{colors.primary.default.hex}}"
+theme[title]="{{base16.base08.default.hex}}"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="{{colors.secondary.default.hex}}"
+theme[hi_fg]="{{colors.source_color.default.hex}}"
 
 # Background color of selected item in processes box
-theme[selected_bg]="{{colors.primary.default.hex}}"
+theme[selected_bg]="{{colors.source_color.default.hex}}"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="{{colors.on_primary.default.hex}}"
+theme[selected_fg]="{{base16.base00.default.hex}}"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="{{colors.on_surface_variant.default.hex}}"
+theme[inactive_fg]="{{base16.base0b.default.hex}}"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
 theme[proc_misc]="{{colors.tertiary.default.hex}}"
 
 # Cpu box outline color
-theme[cpu_box]="{{colors.outline.default.hex}}"
+theme[cpu_box]="{{base16.base0c.default.hex}}"
 
 # Memory/disks box outline color
-theme[mem_box]="{{colors.outline.default.hex}}"
+theme[mem_box]="{{base16.base0c.default.hex}}"
 
 # Net up/down box outline color
-theme[net_box]="{{colors.outline.default.hex}}"
+theme[net_box]="{{base16.base0c.default.hex}}"
 
 # Processes box outline color
-theme[proc_box]="{{colors.outline.default.hex}}"
+theme[proc_box]="{{base16.base0c.default.hex}}"
 
 # Box divider line and small boxes line color
-theme[div_line]="{{colors.outline_variant.default.hex}}"
+theme[div_line]="{{base16.base0c.default.hex}}"
 
 # Temperature graph colors
-theme[temp_start]="{{colors.secondary.default.hex}}"
-theme[temp_mid]="{{colors.primary.default.hex}}"
-theme[temp_end]="{{colors.error.default.hex}}"
+theme[temp_start]="{{base16.base09.default.hex}}"
+theme[temp_mid]="{{base16.base08.default.hex}}"
+theme[temp_end]="{{colors.source_color.default.hex}}"
 
 # CPU graph colors
-theme[cpu_start]="{{colors.secondary.default.hex}}"
-theme[cpu_mid]="{{colors.primary.default.hex}}"
-theme[cpu_end]="{{colors.error.default.hex}}"
+theme[cpu_start]="{{base16.base09.default.hex}}"
+theme[cpu_mid]="{{base16.base08.default.hex}}"
+theme[cpu_end]="{{colors.source_color.default.hex}}"
 
 # Mem/Disk free meter
-theme[free_start]="{{colors.secondary.default.hex}}"
-theme[free_mid]=""
-theme[free_end]="{{colors.secondary_container.default.hex}}"
+theme[free_start]="{{base16.base09.default.hex}}"
+theme[free_mid]="{{base16.base08.default.hex}}"
+theme[free_end]="{{colors.source_color.default.hex}}"
 
 # Mem/Disk cached meter
-theme[cached_start]="{{colors.tertiary.default.hex}}"
-theme[cached_mid]=""
-theme[cached_end]="{{colors.tertiary_container.default.hex}}"
+theme[cached_start]="{{base16.base09.default.hex}}"
+theme[cached_mid]="{{base16.base08.default.hex}}"
+theme[cached_end]="{{colors.source_color.default.hex}}"
 
 # Mem/Disk available meter
-theme[available_start]="{{colors.primary.default.hex}}"
-theme[available_mid]=""
-theme[available_end]="{{colors.primary_container.default.hex}}"
+theme[available_start]="{{base16.base09.default.hex}}"
+theme[available_mid]="{{base16.base08.default.hex}}"
+theme[available_end]="{{colors.source_color.default.hex}}"
 
 # Mem/Disk used meter
-theme[used_start]="{{colors.error.default.hex}}"
-theme[used_mid]=""
-theme[used_end]="{{colors.error_container.default.hex}}"
+theme[used_start]="{{base16.base09.default.hex}}"
+theme[used_mid]="{{base16.base08.default.hex}}"
+theme[used_end]="{{colors.source_color.default.hex}}"
 
 # Download graph colors
-theme[download_start]="{{colors.secondary.default.hex}}"
-theme[download_mid]="{{colors.primary.default.hex}}"
-theme[download_end]="{{colors.tertiary.default.hex}}"
+theme[download_start]="{{base16.base09.default.hex}}"
+theme[download_mid]="{{base16.base08.default.hex}}"
+theme[download_end]="{{colors.source_color.default.hex}}"
 
 # Upload graph colors
-theme[upload_start]="{{colors.secondary.default.hex}}"
-theme[upload_mid]="{{colors.primary.default.hex}}"
-theme[upload_end]="{{colors.tertiary.default.hex}}"
+theme[upload_start]="{{base16.base09.default.hex}}"
+theme[upload_mid]="{{base16.base08.default.hex}}"
+theme[upload_end]="{{colors.source_color.default.hex}}"

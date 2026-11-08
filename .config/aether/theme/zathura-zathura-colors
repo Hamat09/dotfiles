@@ -12,20 +12,20 @@ set statusbar-fg            "#ffffff"
 set inputbar-bg             "#121212"
 set inputbar-fg             "#ffffff"
 
-set notification-error-bg   "#f13127"
+set notification-error-bg   "#e24e43"
 set notification-error-fg   "#121212"
 
-set notification-warning-bg "#f13127"
+set notification-warning-bg "#e24e43"
 set notification-warning-fg "#121212"
 
 set highlight-color         ""
 set highlight-active-color  ""
 
 set completion-highlight-fg "#121212"
-set completion-highlight-bg #f93024""
+set completion-highlight-bg #04e1e0""
 
 set completion-bg           "#121212"
-set completion-fg           "#f93024"
+set completion-fg           "#04e1e0"
 
 set notification-bg         "#121212"
 set notification-fg         "#ffffff"

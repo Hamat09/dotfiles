@@ -19,29 +19,29 @@
 }
 
 window#waybar {
-    background-color: alpha(#121212, 1.0);
-    border: 0px solid #f33226;
-    border-radius: 0px;
+    background-color: alpha(#121212, 0.7);
+    border: 0px solid #60b3b3;
+    border-radius: 5px;
     color: @fg;
 }
 
 #workspaces button {
-    padding: 0 10px;
-    margin: 0px 0px 0px 0px;
+    padding: 0 7px;
+    margin: 5px 0px 5px 5px;
     color: #ffffff;
     background: transparent;
 }
 #workspaces button.active {
     color: #121212;
-    background: #f13127;
-    border-radius: 0px;
+    background: #e24e43;
+    border-radius: 5px;
 }
 #workspaces button.empty {
     color: #ffffff;
 }
 #workspaces button.empty.active {
     color: #121212;
-    background: #f13127;
+    background: #e24e43;
 }
 
 #workspaces button.urgent {
@@ -50,19 +50,19 @@ window#waybar {
 
 button:hover {
     background: transparent;
-    border-radius: 0px;
+    border-radius: 5px;
     border-color: transparent;
 }
 
 tooltip {
-  border: 0px solid #f33226;
-  border-radius: 0px;
-  color: #bf605e;
-  background-color: alpha(#121212, 1.0);
+  border: 0px solid #60b3b3;
+  border-radius: 5px;
+  color: #bf79b6;
+  background-color: alpha(#121212, 0.7);
 }
 
 tooltip label {
-  color: #bf605e;
+  color: #bf79b6;
 }
 
 
@@ -79,12 +79,12 @@ tooltip label {
 }
 
 #custom-sep {
-    color: #f63025;
+    color: #ee4126;
 
 }
 
 #clock {
-    color: #f93024;
+    color: #04e1e0;
 }
 #pulseaudio {
     color: #ffffff;
@@ -129,16 +129,16 @@ tooltip label {
 }
 
 #tray menu  {
-    border: 0px solid #f33226;
-    border-radius: 0px;
-    color: #bf605e; /* Change text color in menus */
-    background: alpha(#121212, 1.0); /* Change background of menu items */
+    border: 0px solid #60b3b3;
+    border-radius: 5px;
+    color: #bf79b6; /* Change text color in menus */
+    background: alpha(#121212, 0.7); /* Change background of menu items */
 }
 
 #tray menu :hover {
-    border-radius: 0px;
+    border-radius: 5px;
     color: #121212; 
-    background-color: #f13127; /* Hover effect for menu items */
+    background-color: #e24e43; /* Hover effect for menu items */
 }
 
 
