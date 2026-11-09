@@ -20,7 +20,7 @@
 
 window#waybar {
     background-color: alpha(#%%background%%, 0.7);
-    border: 0px solid #%%color6.hex%%;
+    border: 2px solid #%%color6.hex%%;
     border-radius: 5px;
     color: @fg;
 }
@@ -55,7 +55,7 @@ button:hover {
 }
 
 tooltip {
-  border: 0px solid #%%color6.hex%%;
+  border: 2px solid #%%color6.hex%%;
   border-radius: 5px;
   color: #%%color5.hex%%;
   background-color: alpha(#%%background.hex%%, 0.7);
@@ -128,7 +128,7 @@ tooltip label {
 }
 
 #tray menu  {
-    border: 0px solid #%%color7.hex%%;
+    border: 2px solid #%%color7.hex%%;
     border-radius: 5px;
     color: #%%color5.hex%%; /* Change text color in menus */
     background: alpha(#%%background%%, 0.7); /* Change background of menu items */

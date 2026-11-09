@@ -20,7 +20,7 @@
 
 window#waybar {
     background-color: alpha({{base16.base00.default.hex}}, 0.7);
-    border: 0px solid {{base16.base0c.default.hex}};
+    border: 2px solid {{base16.base0c.default.hex}};
     border-radius: 5px;
     color: @fg;
 }
@@ -55,7 +55,7 @@ button:hover {
 }
 
 tooltip {
-  border: 0px solid {{base16.base0c.default.hex}};
+  border: 2px solid {{base16.base0c.default.hex}};
   border-radius: 5px;
   color: {{base16.base0b.default.hex}};
   background-color: alpha({{base16.base00.default.hex}}, 0.7);
@@ -129,7 +129,7 @@ tooltip label {
 }
 
 #tray menu  {
-    border: 0px solid {{base16.base0c.default.hex}};
+    border: 2px solid {{base16.base0c.default.hex}};
     border-radius: 5px;
     color: {{base16.base0b.default.hex}}; /* Change text color in menus */
     background: alpha({{base16.base00.default.hex}}, 0.7); /* Change background of menu items */
