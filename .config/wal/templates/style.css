@@ -41,7 +41,7 @@ window#waybar {
 }
 #workspaces button.empty.active {
     color: {background};
-    background: {color1};
+    background: {color2};
 }
 
 #workspaces button.urgent {
