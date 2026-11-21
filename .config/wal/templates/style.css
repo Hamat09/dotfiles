@@ -33,7 +33,7 @@ window#waybar {
 }
 #workspaces button.active {
     color: {background};
-    background: {color1};
+    background: {color2};
     border-radius: 5px;
 }
 #workspaces button.empty {

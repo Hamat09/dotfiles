@@ -1,29 +1,29 @@
 {
-    "checksum": "None",
-    "wallpaper": "None",
+    "checksum": "c5fa226750c416a24ff8e51e799be679",
+    "wallpaper": "/home/hamato/Wallpapers/a_cartoon_of_a_monster.png",
     "alpha": "100",
 
     "special": {
-        "background": "#232136",
-        "foreground": "#e0def4",
-        "cursor": "#56526e"
+        "background": "#1f0c0c",
+        "foreground": "#c7c2c2",
+        "cursor": "#c7c2c2"
     },
     "colors": {
-        "color0": "#393552",
-        "color1": "#eb6f92",
-        "color2": "#3e8fb0",
-        "color3": "#f6c177",
-        "color4": "#9ccfd8",
-        "color5": "#c4a7e7",
-        "color6": "#ea9a97",
-        "color7": "#e0def4",
-        "color8": "#6e6a86",
-        "color9": "#eb6f92",
-        "color10": "#3e8fb0",
-        "color11": "#f6c177",
-        "color12": "#9ccfd8",
-        "color13": "#c4a7e7",
-        "color14": "#ea9a97",
-        "color15": "#e0def4"
+        "color0": "#1f0c0c",
+        "color1": "#5c4831",
+        "color2": "#9a231c",
+        "color3": "#8f3127",
+        "color4": "#af3628",
+        "color5": "#ca2f20",
+        "color6": "#a5442d",
+        "color7": "#c7c2c2",
+        "color8": "#715c5c",
+        "color9": "#5c4831",
+        "color10": "#9a231c",
+        "color11": "#8f3127",
+        "color12": "#af3628",
+        "color13": "#ca2f20",
+        "color14": "#a5442d",
+        "color15": "#c7c2c2"
     }
 }
